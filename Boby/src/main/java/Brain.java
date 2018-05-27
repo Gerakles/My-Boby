@@ -10,14 +10,10 @@ import java.io.IOException;
 public class Brain extends Component {
     private static Audio hello;
 
-    public static void main(String[] args) {
-        new Brain();
-    }
-
     private Brain() {
         JFrame f = new JFrame( "Smart Boby" );
         JButton but1 = new JButton( "" );
-        JPanel butPan = new JPanel( new BorderLayout(  ) );
+        JPanel butPan = new JPanel( new BorderLayout() );
 
         f.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         try {
@@ -29,15 +25,19 @@ public class Brain extends Component {
         f.pack();
         f.setVisible( true );
 
-        but1.setBorderPainted(false);
-        but1.setFocusPainted(false);
+        but1.setBorderPainted( false );
+        but1.setFocusPainted( false );
         but1.setBackground( Color.CYAN );
 
-        butPan.setLayout( new GridLayout( 1,1 ) );
+        butPan.setLayout( new GridLayout( 1, 1 ) );
         butPan.add( but1 );
         f.add( butPan, BorderLayout.CENTER );
 
         but1.addActionListener( new Actio() );
+    }
+
+    public static void main(String[] args) {
+        new Brain();
     }
     private class Audio {
         private String track;
@@ -83,7 +83,7 @@ public class Brain extends Component {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            hello = new Audio("Boby/src/main/java/get/hello.wav", 1);
+            hello = new Audio( "Boby/src/main/java/get/hello.wav", 1 );
             hello.sounds();
             hello.setVolumes();
         }
