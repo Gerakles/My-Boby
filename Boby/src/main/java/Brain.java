@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 
-public class Brain extends Component {
+public class Brain extends Component { //2.71 Kb
     private static Audio hello;
 
     private Brain() {
@@ -17,10 +17,12 @@ public class Brain extends Component {
 
         f.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         try {
-            f.setContentPane( new JLabel( new ImageIcon( ImageIO.read( new File( "D:/lectii/My Boby/Boby/src/main/java/get/Boby2.jpg" ) ) ) ) );
+            f.setContentPane( new JLabel( new ImageIcon( ImageIO.read( new File(
+                    "D:/lectii/My Boby/Boby/src/main/java/get/Boby2.jpg" ) ) ) ) );
         } catch (IOException e) {
             System.out.println( "does not exist" );
         }
+
         f.setResizable( false );
         f.pack();
         f.setVisible( true );
@@ -39,6 +41,7 @@ public class Brain extends Component {
     public static void main(String[] args) {
         new Brain();
     }
+
     private class Audio {
         private String track;
         private Clip clip = null;
@@ -80,7 +83,6 @@ public class Brain extends Component {
     }
 
     private class Actio implements ActionListener {
-
         @Override
         public void actionPerformed(ActionEvent e) {
             hello = new Audio( "Boby/src/main/java/get/hello.wav", 1 );
