@@ -26,7 +26,6 @@ public class Brain extends Component { //2.71 Kb
         f.setResizable( false );
         f.pack();
         f.setVisible( true );
-
         but1.setBorderPainted( false );
         but1.setFocusPainted( false );
         but1.setBackground( Color.CYAN );
