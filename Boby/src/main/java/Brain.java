@@ -30,17 +30,16 @@ public class Brain extends Component { //2.71 Kb
         but1.setBorderPainted( false );
         but1.setFocusPainted( false );
         but1.setBackground( Color.CYAN );
-
         butPan.setLayout( new GridLayout( 1, 1 ) );
         butPan.add( but1 );
         f.add( butPan, BorderLayout.CENTER );
-
         but1.addActionListener( new Actio() );
     }
 
     public static void main(String[] args) {
         new Brain();
     }
+
     private class Audio {
         private String track;
         private Clip clip = null;
