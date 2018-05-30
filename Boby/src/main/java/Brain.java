@@ -41,7 +41,6 @@ public class Brain extends Component { //2.71 Kb
     public static void main(String[] args) {
         new Brain();
     }
-
     private class Audio {
         private String track;
         private Clip clip = null;
@@ -56,16 +55,17 @@ public class Brain extends Component { //2.71 Kb
         private void sounds() {
             File file = new File( this.track );
             AudioInputStream ais = null;
+
             try {
                 ais = AudioSystem.getAudioInputStream( file );
             } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
+
             try {
                 clip = AudioSystem.getClip();
                 clip.open( ais );
                 volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );
-
                 clip.setFramePosition( 0 );
                 clip.start();
             } catch (LineUnavailableException | IOException e) {
