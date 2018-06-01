@@ -86,7 +86,6 @@ public class Brain extends Component { //2.71 Kb
     private void setVisionItems(boolean pass) {
         input.setVisible( pass );
         output.setVisible( pass );
-
         if (pass) {
             buttonsPanel.add( restart, BorderLayout.EAST );
         }
@@ -94,7 +93,6 @@ public class Brain extends Component { //2.71 Kb
 
     static class DB {
         private static final String url = "jdbc:sqlite:D://lectii/My Boby/db/Boby.db";
-
         public static void main(String[] args) {
             DB app = new DB();
             //app.createNewTable();
