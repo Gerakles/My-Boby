@@ -93,7 +93,6 @@ public class Brain { //5.56 kb
 
     static class DB {
         private static final String url = "jdbc:sqlite:D://lectii/My Boby/db/Boby.db";
-        
         public static void main(String[] args) {
             DB app = new DB();
             app.createNewTable();
