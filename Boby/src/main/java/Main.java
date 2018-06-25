@@ -1,6 +1,7 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Main {
 
@@ -13,6 +14,24 @@ public class Main {
         Connection connection;
 
         connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        Statement statement = connection.createStatement();
+        //add
+        //statement.execute( "INSERT INTO animal(anim_name,anim_desc) VALUES ('name','desc');" );
+        //update
+        //statement.executeUpdate( "UPDATE animal SET anim_name='New Name' WHERE id =1;" );
+        //select
+        //statement.executeQuery( "SELECT * FROM animal" );
+        //add pack
+        //statement.addBatch( "INSERT INTO animal(anim_name,anim_desc) VALUES ('Batch1','desc');" );
+        //statement.addBatch( "INSERT INTO animal(anim_name,anim_desc) VALUES ('Batch2','desc');" );
+        //statement.addBatch( "INSERT INTO animal(anim_name,anim_desc) VALUES ('Batch3','desc');" );
+        statement.executeBatch();
+        //clear batch
+        statement.clearBatch();
+        //conection verifity
+        statement.getConnection();
+        //close
+        statement.close();
         if (!connection.isClosed()) {
             System.out.println("Соединение с БД Установлено!");
         }
