@@ -13,7 +13,7 @@ public class Main {
         //Connection to database; Соединение с базой данных
         Connection connection;
 
-        connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        connection = DriverManager.getConnection( URL, USERNAME, PASSWORD );
         Statement statement = connection.createStatement();
         //add
         //statement.execute( "INSERT INTO animal(anim_name,anim_desc) VALUES ('name','desc');" );
@@ -33,11 +33,11 @@ public class Main {
         //close
         statement.close();
         if (!connection.isClosed()) {
-            System.out.println("Соединение с БД Установлено!");
+            System.out.println( "Соединение с БД Установлено!" );
         }
         connection.close();
         if (connection.isClosed()) {
-            System.out.println("Соединение с БД Закрыто!");
+            System.out.println( "Соединение с БД Закрыто!" );
         }
     }
 }
