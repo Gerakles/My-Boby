@@ -5,7 +5,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
-import java.sql.*;
 import java.util.Random;
 
 public class Brain { //5.56 kb
@@ -40,8 +39,8 @@ public class Brain { //5.56 kb
         newGame.setBorderPainted( false );
         newGame.setFocusPainted( false );
         newGame.setBackground( gray1 );
-        restart.setIcon( new ImageIcon( "Boby/src/main/java/get/n.png" ) );
-        newGame.setIcon( new ImageIcon( "Boby/src/main/java/get/s.png" ) );
+        restart.setIcon( new ImageIcon( "n.png" ) );
+        newGame.setIcon( new ImageIcon( "s.png" ) );
         newGame.addActionListener( e -> {
             playerName = JOptionPane.showInputDialog( "Write your NickName" );
             output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
@@ -155,8 +154,8 @@ public class Brain { //5.56 kb
     private class Nums implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            applause = new Audio( "Boby/src/main/java/get/applause.wav", 1 );
-            gameOver = new Audio( "Boby/src/main/java/get/Game_over.wav", 1 );
+            applause = new Audio( "applause.wav", 1 );
+            gameOver = new Audio( "Game_over.wav", 1 );
             Random random = new Random();
             int target = random.nextInt( iter ) + 1;
             iter++;
