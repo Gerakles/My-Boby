@@ -5,9 +5,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
+import java.sql.*;
 import java.util.Random;
 
-public class Brain { //5.56 kb
+public class Brain { //7.87 kb
     private static int iter = 1;
     private static String playerName;
     private static Audio gameOver;
@@ -22,9 +23,9 @@ public class Brain { //5.56 kb
 
     private Brain() {
         Color yellow = new Color( 212, 172, 13 );
-        Color gray1 = new Color( 123, 125, 125 );
+        Color gray1 = new Color( 100, 100, 125 );
 
-        frame = new JFrame( "Prototip" );
+        frame = new JFrame( "Relax Game" );
         frame.setSize( 350, 300 );
         frame.setVisible( true );
         frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
@@ -90,66 +91,95 @@ public class Brain { //5.56 kb
         }
     }
 
-//    static class DB {
-//        private static final String url = "jdbc:sqlite:D://lectii/My Boby/db/Boby.db";
-//        public static void main(String[] args) {
-//            DB app = new DB();
-//            //app.createNewTable();
-//            //app.sellectAll();
-//        }
-//
-//        private void createNewTable() {
-//            String sql = "CREATE TABLE IF NOT EXISTS user (\n"
-//                    + "	name text NOT NULL,\n"
-//                    + " score integer PRIMARY KEY\n"
-//                    + ");";
-//            try (Connection conn = this.connect();
-//                 Statement statement = conn.createStatement()) {
-//                // create a new table
-//                statement.execute( sql );
-//            } catch (SQLException e) {
-//                System.out.println( e.getMessage() );
-//            }
-//        }
-//
-//        private Connection connect() {
-//            // SQLite connection string
-//            Connection conn = null;
-//            try {
-//                conn = DriverManager.getConnection( url );
-//            } catch (SQLException e) {
-//                System.out.println( e.getMessage() );
-//            }
-//            return conn;
-//        }
-//
-//        private void insert(String name, int score) {
-//            String sql = "INSERT INTO user(name,score) VALUES(?,?)";
-//            try (Connection conn = this.connect();
-//                 PreparedStatement pstmt = conn.prepareStatement( sql )) {
-//                pstmt.setString( 1, name );
-//                pstmt.setInt( 2, score );
-//                pstmt.executeUpdate();
-//            } catch (SQLException e) {
-//                System.out.println( e.getMessage() );
-//            }
-//        }
-//
-//        private void sellectAll() {
-//            String sql = "SELECT name, score FROM user";
-//            try (Connection conn = this.connect();
-//                 Statement stmt = conn.createStatement();
-//                 ResultSet rs = stmt.executeQuery( sql )) {
-//                // loop through the result set
-//                while (rs.next()) {
-//                    System.out.println( rs.getString( "name" ) + "\t" +
-//                            rs.getInt( "score" ) );
-//                }
-//            } catch (SQLException e) {
-//                System.out.println( e.getMessage() );
-//            }
-//        }
-//    }
+    static class DB {
+        private static final String HOST = "jdbc:mysql://localhost:3306" +
+                "/mydbtest?useSSL=false&serverTimezone=UTC";
+        private static final String USERNAME = "root";
+        private static final String PASSWORD = "root";
+
+        private static final String INSERT_NEW = "INSERT INTO brain VALUES(?,?,?)";
+        private static final String GET_ALL = "SELECT * FROM brain";
+        private static final String MAX = "SELECT * FROM brain ORDER BY ID DESC LIMIT 1";
+//        private static final String DELETE = "DELETE FROM brain WHERE id=2";
+
+        PreparedStatement preparedStatement = null;
+
+        public static void main(String[] args) {
+            DB app = new DB();
+            app.sellectAll();
+            //app.max();
+        }
+
+        private Connection connection() {
+            Connection connection = null;
+            try {
+                connection = DriverManager.getConnection( HOST, USERNAME, PASSWORD );
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            return connection;
+        }
+
+        public void insert(String name, int score) {
+            try {
+                Connection connection = this.connection();
+                Statement statement = connection.createStatement();
+                preparedStatement = connection.prepareStatement( MAX );
+                ResultSet resultSet = preparedStatement.executeQuery();
+                while (resultSet.next()) {
+                    int id = resultSet.getInt( "id" );
+                    preparedStatement = connection.prepareStatement( INSERT_NEW );
+                    preparedStatement.setInt( 1, ++id);
+                    preparedStatement.setString( 2, name );
+                    preparedStatement.setInt( 3, score );
+                    preparedStatement.executeUpdate();
+                }
+
+                statement.close();
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        private void sellectAll() {
+            try {
+                Connection connection = this.connection();
+                Statement statement = connection.createStatement();
+                preparedStatement = connection.prepareStatement( GET_ALL );
+                ResultSet resultSet = preparedStatement.executeQuery();
+
+                while (resultSet.next()) {
+                    int id = resultSet.getInt( "id" );
+                    String name = resultSet.getString( "name" );
+                    int score = resultSet.getInt( "score" );
+
+                    System.out.println( "id - " + id + ", name '" + name + "', score - " + score );
+
+                }
+                statement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        private void max() {
+            try {
+                Connection connection = this.connection();
+                Statement statement = connection.createStatement();
+                preparedStatement = connection.prepareStatement( MAX );
+                ResultSet resultSet = preparedStatement.executeQuery();
+
+                while (resultSet.next()) {
+                    int id = resultSet.getInt( "id" );
+                    System.out.println( "id - " + id);
+                }
+                statement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
     private class Nums implements ActionListener {
         @Override
@@ -176,8 +206,8 @@ public class Brain { //5.56 kb
                 output.append( "Answer : " + target );
                 input.setEnabled( false );
                 input.setText( "" );
-//                DB app = new DB();
-//                app.insert( playerName, iter - 1 );
+                DB app = new DB();
+                app.insert( playerName, iter - 1 );
             }
         }
     }

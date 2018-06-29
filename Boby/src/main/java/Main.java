@@ -9,6 +9,8 @@ public class Main {
     private final static String USERNAME = "root";
     private final static String PASSWORD = "root";
 
+
+
     public static void main(String[] args) throws SQLException {
         //Connection to database; Соединение с базой данных
         Connection connection;

@@ -44,6 +44,11 @@
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-list>
+    <filter-list connection-id="ff526397-0c36-4c97-a172-ac1e57685105" dataset="mydbtest.brain" active-filter-id="4668b719-bd0c-4a3b-a8a0-8bf2592ed000">
+      <filter id="4668b719-bd0c-4a3b-a8a0-8bf2592ed000" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="" operator="=" value="" active="true" />
+      </filter>
+    </filter-list>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
