@@ -20,15 +20,16 @@ public class Brain { //7.87 kb
     private JFrame frame;
     private JPanel buttonsPanel;
     private JPanel mPanel;
+    final ImageIcon imageIcon = new ImageIcon("3^7.png");
 
     private Brain() {
         Color yellow = new Color( 212, 172, 13 );
         Color gray1 = new Color( 100, 100, 125 );
 
         frame = new JFrame( "Relax Game" );
+        frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         frame.setSize( 350, 300 );
         frame.setVisible( true );
-        frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         frame.setLocationRelativeTo( null );
         frame.setLayout( new BorderLayout() );
 
@@ -66,6 +67,7 @@ public class Brain { //7.87 kb
         output.setFont( font );
         output.setBackground( gray1 );
         output.setForeground( yellow );
+        
 
         mPanel.setBackground( gray1 );
         mPanel.add( output, BorderLayout.CENTER );
@@ -129,7 +131,7 @@ public class Brain { //7.87 kb
                 while (resultSet.next()) {
                     int id = resultSet.getInt( "id" );
                     preparedStatement = connection.prepareStatement( INSERT_NEW );
-                    preparedStatement.setInt( 1, ++id);
+                    preparedStatement.setInt( 1, ++id );
                     preparedStatement.setString( 2, name );
                     preparedStatement.setInt( 3, score );
                     preparedStatement.executeUpdate();
@@ -172,7 +174,7 @@ public class Brain { //7.87 kb
 
                 while (resultSet.next()) {
                     int id = resultSet.getInt( "id" );
-                    System.out.println( "id - " + id);
+                    System.out.println( "id - " + id );
                 }
                 statement.close();
             } catch (SQLException e) {
