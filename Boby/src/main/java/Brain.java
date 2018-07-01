@@ -8,11 +8,12 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.Random;
 
-public class Brain { //7.87 kb
+public class Brain { //9.01 kb
     private static int iter = 1;
     private static String playerName;
     private static Audio gameOver;
     private static Audio applause;
+    final ImageIcon imageIcon = new ImageIcon( "3^7.png" );
     private JTextArea output;
     private JTextField input;
     private JButton newGame;
@@ -20,7 +21,6 @@ public class Brain { //7.87 kb
     private JFrame frame;
     private JPanel buttonsPanel;
     private JPanel mPanel;
-    final ImageIcon imageIcon = new ImageIcon("3^7.png");
 
     private Brain() {
         Color yellow = new Color( 212, 172, 13 );
@@ -67,7 +67,6 @@ public class Brain { //7.87 kb
         output.setFont( font );
         output.setBackground( gray1 );
         output.setForeground( yellow );
-
 
         mPanel.setBackground( gray1 );
         mPanel.add( output, BorderLayout.CENTER );
