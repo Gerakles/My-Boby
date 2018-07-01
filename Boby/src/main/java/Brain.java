@@ -67,7 +67,7 @@ public class Brain { //7.87 kb
         output.setFont( font );
         output.setBackground( gray1 );
         output.setForeground( yellow );
-        
+
 
         mPanel.setBackground( gray1 );
         mPanel.add( output, BorderLayout.CENTER );
