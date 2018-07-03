@@ -13,7 +13,6 @@ public class Brain { //9.01 kb
     private static String playerName;
     private static Audio gameOver;
     private static Audio applause;
-    final ImageIcon imageIcon = new ImageIcon( "3^7.png" );
     private JTextArea output;
     private JTextField input;
     private JButton newGame;
@@ -22,7 +21,7 @@ public class Brain { //9.01 kb
     private JPanel buttonsPanel;
     private JPanel mPanel;
 
-    private Brain() {
+    private Brain() throws InterruptedException {
         Color yellow = new Color( 212, 172, 13 );
         Color gray1 = new Color( 100, 100, 125 );
 
@@ -71,9 +70,18 @@ public class Brain { //9.01 kb
         mPanel.setBackground( gray1 );
         mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
+        String text = "HELLO my friend!" +
+                "\n This my first application. " +
+                "\n I wrote this application to test my skills" +
+                "\n and find out what I'm capable of!        ";
+
+        for (char i : text.toCharArray()) {
+            output.append( String.valueOf( i ) );
+            Thread.sleep(150);
+        }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         new Brain().start();
     }
 
@@ -157,23 +165,6 @@ public class Brain { //9.01 kb
 
                     System.out.println( "id - " + id + ", name '" + name + "', score - " + score );
 
-                }
-                statement.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-
-        private void max() {
-            try {
-                Connection connection = this.connection();
-                Statement statement = connection.createStatement();
-                preparedStatement = connection.prepareStatement( MAX );
-                ResultSet resultSet = preparedStatement.executeQuery();
-
-                while (resultSet.next()) {
-                    int id = resultSet.getInt( "id" );
-                    System.out.println( "id - " + id );
                 }
                 statement.close();
             } catch (SQLException e) {
