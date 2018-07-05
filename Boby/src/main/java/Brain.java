@@ -77,7 +77,7 @@ public class Brain { //9.01 kb
 
         for (char i : text.toCharArray()) {
             output.append( String.valueOf( i ) );
-            Thread.sleep(150);
+            Thread.sleep( 150 );
         }
     }
 
