@@ -7,6 +7,7 @@ public class Rps {
         rock, paper, scissors, scissor
         r, p, s
     */
+    
     public static void main(String[] args) {
         try {
             Scanner sc = new Scanner( System.in );
