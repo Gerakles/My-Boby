@@ -72,11 +72,11 @@ public class Rps {
             return true;
         }
         return (user.equalsIgnoreCase( paper )) && (opponent.equalsIgnoreCase( rock ));
-        //If no possible win, assume loss.
+        //If no possible win, assume loss
     }
 
     private static void displayInputs() {
-        //One place to edit it all!
+        //One place to edit it all
         print( "Invalid user input!\nWrite rock, paper or scissors!" );
     }
 
@@ -86,7 +86,7 @@ public class Rps {
     }
 
     private static String quickFormat(String input) {
-        //Just some quick function to shorten inputs.
+        //Just some quick function to shorten inputs
         String output = input;
         switch (input.toLowerCase()) {
             case "r":
