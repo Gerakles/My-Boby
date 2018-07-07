@@ -7,7 +7,7 @@ public class Rps {
         rock, paper, scissors, scissor
         r, p, s
     */
-    
+
     public static void main(String[] args) {
         try {
             Scanner sc = new Scanner( System.in );
@@ -27,28 +27,27 @@ public class Rps {
         }
     }
 
-    public static void game(String user) {
+    private static void game(String user) {
         String computer = computerResults();
         print( user + " vs " + computer + "\n" );
         if (user.equalsIgnoreCase( computer )) {
             print( "Stalemate! No winners." );
         } else {
-            if (checkWin( user, computer )) {
-                print( "You won against the computer!" );
-            } else {
+            if (checkWin( user, computer )) print( "You won against the computer!" );
+            else {
                 print( "You lost against the computer!" );
             }
         }
     }
 
-    public static String computerResults() {
+    private static String computerResults() {
         String types[] = {"rock", "paper", "scissors"};
         Random rand = new Random();
         int computerChoice = rand.nextInt( 3 );
         return types[computerChoice];
     }
 
-    public static boolean isValid(String input) {
+    private static boolean isValid(String input) {
         switch (input.toLowerCase()) {
             case "rock":
                 return true;
@@ -61,7 +60,7 @@ public class Rps {
         }
     }
 
-    public static boolean checkWin(String user, String opponent) {
+    private static boolean checkWin(String user, String opponent) {
         if ((!isValid( user )) || (!isValid( opponent ))) {
             return false;
         }
@@ -72,24 +71,21 @@ public class Rps {
         if ((user.equalsIgnoreCase( scissors )) && (opponent.equalsIgnoreCase( paper ))) {
             return true;
         }
-        if ((user.equalsIgnoreCase( paper )) && (opponent.equalsIgnoreCase( rock ))) {
-            return true;
-        }
-        return false;
+        return (user.equalsIgnoreCase( paper )) && (opponent.equalsIgnoreCase( rock ));
         //If no possible win, assume loss.
     }
 
-    public static void displayInputs() {
+    private static void displayInputs() {
         //One place to edit it all!
         print( "Invalid user input!\nWrite rock, paper or scissors!" );
     }
 
-    public static void print(String text) {
+    private static void print(String text) {
         //Makes printing text easier
         System.out.println( text );
     }
 
-    public static String quickFormat(String input) {
+    private static String quickFormat(String input) {
         //Just some quick function to shorten inputs.
         String output = input;
         switch (input.toLowerCase()) {
