@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercise/CrossingPeriods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercise/CrossingPeriods.class" afterDir="false" />
-    </list>
+    <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="CrossingPeriods.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="168">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,6 +344,14 @@
       <option name="presentableId" value="Default" />
       <updated>1527183459265</updated>
     </task>
+    <task id="LOCAL-00001" summary="Yakin 442">
+      <created>1531158583646</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531158583646</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -385,7 +389,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3294893" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3294893" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37067544" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37067544" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294893" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -404,8 +408,38 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Yakin 442" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yakin 442" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -706,8 +740,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/exercise/IntersectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        <state relative-caret-position="168">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
