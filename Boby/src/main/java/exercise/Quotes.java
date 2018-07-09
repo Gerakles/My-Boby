@@ -3,14 +3,12 @@ package exercise;
 import java.util.Scanner;
 
 public class Quotes {
-    public static int ia1, ia2, ib1, ib2, ic1, ic2;
-    private static char a1 = '(', a2 = ')',
-            b1 = '{', b2 = '}',
-            c1 = '[', c2 = ']';
+    private static void Quotes(String word) {
+        int ia1 = 0, ia2=0, ib1=0, ib2=0, ic1=0, ic2=0;
+        char a1 = '(', a2 = ')',
+             b1 = '{', b2 = '}',
+             c1 = '[', c2 = ']';
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner( System.in );
-        String word = sc.nextLine();
         for (char i : word.toCharArray()) {
             if (i == a1)
                 ia1++;
@@ -35,6 +33,12 @@ public class Quotes {
                 System.out.println( "false" );
         } else
             System.out.println( "false" );
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner( System.in );
+        String word = sc.nextLine();
+        Quotes( word );
+
     }
 }
 
