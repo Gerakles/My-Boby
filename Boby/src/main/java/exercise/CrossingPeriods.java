@@ -1,33 +1,49 @@
 package exercise;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class CrossingPeriods {
-    public static void main(String[] args) {
-        String sdate1 = "01.03.2016";
-        String sdate2 = "01.02.2016";
-        String fdate1 = "01.05.2016";
-        String fdate2 = "01.08.2016";
+    private static void CrossingPeriods(String s1, String s2, String e1, String e2) {
+        SimpleDateFormat format = new SimpleDateFormat( "dd.MM.yyyy" );
 
-        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        Date start1 = null;
+        Date start2 = null;
+        Date end1 = null;
+        Date end2 = null;
 
-        Date startOne = null;
-        Date startTwo = null;
-        Date finalOne = null;
-        Date finalTwo = null;
+        if (s1.length() == 0)
+            s1 = "00.00.0000";
+        if (s2.length() == 0)
+            s2 = "00.00.0000";
+        if (e1.length() == 0)
+            e1 = "31.12.9999";
+        if (e2.length() == 0)
+            e2 = "31.12.9999";
 
         try {
-            startOne = format.parse(sdate1);
-            startTwo = format.parse(sdate2);
-            finalOne = format.parse(fdate1);
-            finalTwo = format.parse(fdate2);
+            start1 = format.parse( s1 );
+            start2 = format.parse( s2 );
+            end1 = format.parse( e1 );
+            end2 = format.parse( e2 );
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (startOne.before( finalTwo )) {
-            if (finalOne.after( startTwo )) {
-                System.out.println(true);
-            }
+        if (start1.after( start2 ) && start2.before( end1 )) {
+            System.out.println( start1 );
         }
+        if (start2.after( start1 ) && start1.before( end2 )) {
+            System.out.println( start2 );
+        }
+        if (end1.after( start2 ) && end1.before( end2 )) {
+            System.out.println( end1 );
+        }
+        if (end2.after( start1 ) && end2.before( end1 )) {
+            System.out.println( end2 );
+        }
+    }
+
+    public static void main(String[] args) {
+        CrossingPeriods( "11.11.1111", "11.11.2222", "11.11.3333", "11.11.4444" );
     }
 }
