@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Quotes {
     public static int ia1, ia2, ib1, ib2, ic1, ic2;
-    private static char a1 = '(', a2 = ')';
-    private static char b1 = '{', b2 = '}';
-    private static char c1 = '[', c2 = ']';
+    private static char a1 = '(', a2 = ')',
+            b1 = '{', b2 = '}',
+            c1 = '[', c2 = ']';
 
     public static void main(String[] args) {
         Scanner sc = new Scanner( System.in );
