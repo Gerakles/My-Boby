@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Quotes {
     private static void Quotes(String word) {
-        int ia1 = 0, ia2=0, ib1=0, ib2=0, ic1=0, ic2=0;
+        int ia1 = 0, ia2 = 0, ib1 = 0, ib2 = 0, ic1 = 0, ic2 = 0;
         char a1 = '(', a2 = ')',
-             b1 = '{', b2 = '}',
-             c1 = '[', c2 = ']';
+                b1 = '{', b2 = '}',
+                c1 = '[', c2 = ']';
 
         for (char i : word.toCharArray()) {
             if (i == a1)
@@ -34,11 +34,11 @@ public class Quotes {
         } else
             System.out.println( "false" );
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner( System.in );
         String word = sc.nextLine();
         Quotes( word );
-
     }
 }
 
