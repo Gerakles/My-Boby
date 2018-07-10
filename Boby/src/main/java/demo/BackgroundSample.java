@@ -1,3 +1,5 @@
+package demo;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -5,7 +7,7 @@ public class BackgroundSample {
     public static void main(String args[]) {
         JFrame frame = new JFrame( "Background Example" );
         frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-        final ImageIcon imageIcon = new ImageIcon( "3^7.png" );
+        final ImageIcon imageIcon = new ImageIcon( "res\\3^7.png" );
         JTextArea output = new JTextArea() {
             Image image = imageIcon.getImage();
 

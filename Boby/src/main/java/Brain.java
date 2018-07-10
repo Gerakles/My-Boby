@@ -40,8 +40,8 @@ public class Brain { //8.75 kb
         newGame.setBorderPainted( false );
         newGame.setFocusPainted( false );
         newGame.setBackground( gray1 );
-        restart.setIcon( new ImageIcon( "n.png" ) );
-        newGame.setIcon( new ImageIcon( "s.png" ) );
+        restart.setIcon( new ImageIcon( "res\\n.png" ) );
+        newGame.setIcon( new ImageIcon( "res\\s.png" ) );
         newGame.addActionListener( e -> {
             playerName = JOptionPane.showInputDialog( "Write your NickName" );
             output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
@@ -176,8 +176,8 @@ public class Brain { //8.75 kb
     private class Nums implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            applause = new Audio( "applause.wav", 1 );
-            gameOver = new Audio( "Game_over.wav", 1 );
+            applause = new Audio( "res\\applause.wav", 1 );
+            gameOver = new Audio( "res\\Game_over.wav", 1 );
             Random random = new Random();
             int target = random.nextInt( iter ) + 1;
             iter++;
