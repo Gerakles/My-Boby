@@ -1,18 +1,48 @@
 package procontext;
 
-import java.io.DataInputStream;
-import java.io.FileInputStream;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.annotations.SerializedName;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class Test {
-    public static void main(String[] args) throws Exception {
-        DataInputStream dis = new DataInputStream( new FileInputStream( "res\\file.txt" ) );
+    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-        byte[] buffer = new byte[512];
-        while (dis.available() != 0) {
-            int count = dis.read( buffer );
+    public static void main(String[] args) {
+        Person person = new Person( "Bob", -443, Arrays.asList( "Odessa", "Bucovel", "Hmelinitsck" ) );
+        String json = GSON.toJson( person );
+        System.out.println( json );
 
-            if (count>0)
-                System.out.println(new String( buffer ));
-        }
+        Person person1 = GSON.fromJson( json, Person.class );
+        System.out.println( person1.getName() );
+        System.out.println( person1.getAge() );
+        System.out.println( person1.getGeoHistory() );
+    }
+}
+
+class Person {
+    private String name;
+    private Integer age;
+    @SerializedName("goe")
+    private List <String> geoHistory;
+
+    Person(String name, Integer age, List <String> geoHistory) {
+        this.name = name;
+        this.age = age;
+        this.geoHistory = geoHistory;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public List <String> getGeoHistory() {
+        return geoHistory;
     }
 }
