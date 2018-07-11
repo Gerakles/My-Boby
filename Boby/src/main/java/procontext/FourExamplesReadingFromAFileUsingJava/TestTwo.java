@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class TestTwo {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(new FileInputStream("res\\file.txt"));
+        Scanner scanner = new Scanner( new FileInputStream( "res\\file.txt" ) );
 
         while (scanner.hasNextLine()) {
-            System.out.println(scanner.nextLine());
+            System.out.println( scanner.nextLine() );
         }
     }
 }
