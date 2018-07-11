@@ -1,4 +1,4 @@
-package procontext;
+package procontext.WorkingWithJSONInJava;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
