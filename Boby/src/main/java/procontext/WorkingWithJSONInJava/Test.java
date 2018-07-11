@@ -11,7 +11,7 @@ public class Test {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     public static void main(String[] args) {
-        Person person = new Person( "Bob", -443, Arrays.asList( "Odessa", "Bucovel", "Hmelinitsck" ) );
+        Person person = new Person( "Bob", -442, Arrays.asList( "Odessa", "Bucovel", "Hmelinitsck" ) );
         String json = GSON.toJson( person );
         System.out.println( json );
 
@@ -34,15 +34,15 @@ class Person {
         this.geoHistory = geoHistory;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public Integer getAge() {
+    Integer getAge() {
         return age;
     }
 
-    public List <String> getGeoHistory() {
+    List <String> getGeoHistory() {
         return geoHistory;
     }
 }
