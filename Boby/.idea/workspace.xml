@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3^7.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/3^7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boby2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/Boby2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_over.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Game_over.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applause.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/applause.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duolingo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/hello.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BackgroundSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/BackgroundSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Brain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Brain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DBWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/DBWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainBrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/MainBrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Mains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Rps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/procontext/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/procontext/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BackgroundSample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BackgroundSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DBWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainBrain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mains.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,41 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/procontext/Test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/procontext/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Brain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+            <state relative-caret-position="238">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +73,8 @@
         <option value="$PROJECT_DIR$/src/main/java/procontext/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/BackgroundSample.java" />
         <option value="$PROJECT_DIR$/res/file.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/procontext/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/procontext/Test.java" />
       </list>
     </option>
   </component>
@@ -167,19 +108,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
               <item name="Boby" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
@@ -211,7 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Brain">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BackgroundSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.BackgroundSample" />
       <module name="Body" />
@@ -275,13 +211,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Quotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.Quotes" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="procontext.Test" />
       <module name="Body" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.*" />
+          <option name="PATTERN" value="procontext.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,19 +275,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Quotes" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.MainBrain" />
       <item itemvalue="Application.BackgroundSample" />
       <item itemvalue="Application.Brain" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Brain" />
         <item itemvalue="Application.BackgroundSample" />
         <item itemvalue="Application.MainBrain" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Quotes" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +339,6 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
       <window_info anchor="right" id="DB Browser" order="8" weight="0.32980332" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3294893" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" weight="0.3294893" />
@@ -411,11 +346,11 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3294893" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3294893" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37067544" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37067544" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294893" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.26701966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.2708018" />
       <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.2980333" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
@@ -428,6 +363,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3294893" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -666,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,22 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,20 +682,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="159">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+        <state relative-caret-position="100">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
