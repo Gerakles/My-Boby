@@ -13,7 +13,7 @@ public class Main {
             connection.connect();
 
             if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
-                System.out.println("ok");
+                System.out.println( "ok" );
             } else
                 System.out.println( "fail: " + connection.getResponseCode() + ", " + connection.getResponseMessage() );
         } catch (Throwable cause) {
