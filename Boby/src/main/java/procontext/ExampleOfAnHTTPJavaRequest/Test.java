@@ -28,10 +28,9 @@ public class Test {
                     sb.append( line );
                     sb.append( "\n" );
                 }
-                System.out.println( sb.toString() );
-            } else {
-//                System.out.println( "fail: " + connection.getResponseCode() + ", " + connection.getResponseMessage() );
-            }
+//                System.out.println( sb.toString() );
+            } else
+                System.out.println( "fail: " + connection.getResponseCode() + ", " + connection.getResponseMessage() );
         } catch (Throwable cause) {
             cause.printStackTrace();
         } finally {
