@@ -41,4 +41,3 @@ public class Quotes {
         Quotes( word );
     }
 }
-

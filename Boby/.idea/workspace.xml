@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/Quotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/Quotes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,14 +30,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/procontext/WorkingWithJSONInJava/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="358">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrossingPeriods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quotes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exercise/Quotes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -82,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/test/java/exercise/IntersectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/exercise/IntersectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exercise/Quotes.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/BackgroundSample.java" />
         <option value="$PROJECT_DIR$/res/file.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
@@ -99,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/main/java/procontext/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Example.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exercise/Quotes.java" />
       </list>
     </option>
   </component>
@@ -168,26 +188,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="procontext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="procontext" type="462c0819:PsiDirectoryNode" />
-              <item name="WorkingWithJSONInJava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="procontext" type="462c0819:PsiDirectoryNode" />
-              <item name="WorkingWithJSONInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Test.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
@@ -648,13 +649,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/exercise/Intercection.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/exercise/IntersectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/exercise/IntersectionTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercise/Quotes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -747,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/procontext/FourExamplesReadingFromAFileUsingJava/TestTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -809,11 +796,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/procontext/WorkingWithJSONInJava/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="358">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exercise/CrossingPeriods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exercise/Quotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
