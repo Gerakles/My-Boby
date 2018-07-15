@@ -1,9 +1,9 @@
 package procontext.ForMonday;
 
 import java.sql.*;
-import java.util.Calendar;
 
-public class TMessage {private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";
+public class TMessage {
+    private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
 
@@ -11,7 +11,6 @@ public class TMessage {private static final String HOST = "jdbc:mysql://localhos
     private static final String MAX = "SELECT * FROM t_message ORDER BY ID DESC LIMIT 1";
 
     PreparedStatement preparedStatement = null;
-
     private Connection connection() throws SQLException {
         Connection connection = null;
 
