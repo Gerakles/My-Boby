@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="TStatus.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -822,8 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
