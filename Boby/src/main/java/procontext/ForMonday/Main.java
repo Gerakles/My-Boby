@@ -1,10 +1,14 @@
 package procontext.ForMonday;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.io.DataOutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Main {
+    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     public static void main(String[] args) {
         String query = "https://vk.com/im?peers=140620469&sel=-157826406";
 
@@ -13,7 +17,9 @@ public class Main {
             connection = (HttpURLConnection) new URL( query ).openConnection();
             connection.setDoOutput( true );
             DataOutputStream wr = new DataOutputStream(connection.getOutputStream());
-            wr.writeBytes("Hello Http");
+            Messages mess = new Messages( "ABC", "12345", "Hello http" );
+            String json = GSON.toJson( mess );
+            wr.writeBytes(json);
             wr.flush();
             wr.close();
 
