@@ -109,7 +109,6 @@ public class Brain { //8.75 kb
         private static final String INSERT_NEW = "INSERT INTO brain VALUES(?,?,?)";
         private static final String GET_ALL = "SELECT * FROM brain";
         private static final String MAX = "SELECT * FROM brain ORDER BY ID DESC LIMIT 1";
-//        private static final String DELETE = "DELETE FROM brain WHERE id=2";
 
         PreparedStatement preparedStatement = null;
 
