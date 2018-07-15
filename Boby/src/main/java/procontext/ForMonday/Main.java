@@ -14,6 +14,7 @@ public class Main {
 
             if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
                 System.out.println( "ok" );
+                System.out.println(connection.getResponseCode());
             } else
                 System.out.println( "fail: " + connection.getResponseCode() + ", " + connection.getResponseMessage() );
         } catch (Throwable cause) {

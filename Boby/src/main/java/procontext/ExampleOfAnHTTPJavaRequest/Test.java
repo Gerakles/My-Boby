@@ -29,6 +29,7 @@ public class Test {
                     sb.append( "\n" );
                 }
 //                System.out.println( sb.toString() );
+                System.out.println(connection.getResponseCode());
             } else
                 System.out.println( "fail: " + connection.getResponseCode() + ", " + connection.getResponseMessage() );
         } catch (Throwable cause) {
