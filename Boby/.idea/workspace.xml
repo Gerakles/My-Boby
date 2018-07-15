@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/procontext/ExampleOfAnHTTPJavaRequest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/procontext/ExampleOfAnHTTPJavaRequest/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/procontext/Server.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -49,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="103" lean-forward="true" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+            <state relative-caret-position="255">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/procontext/HTTPPOST/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -275,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="procontext.ForMonday.Main" />
       <module name="Body" />
@@ -392,10 +390,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -456,11 +454,11 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3294893" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3294893" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36867863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36867863" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294893" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.30181542" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.30181542" />
       <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.2980333" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
@@ -785,16 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="103" lean-forward="true" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/procontext/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -809,6 +797,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
