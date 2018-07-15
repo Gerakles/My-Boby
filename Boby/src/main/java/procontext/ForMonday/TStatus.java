@@ -7,23 +7,15 @@ public class TStatus {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
 
-    private static final String INSERT_NEW = "INSERT INTO t_status VALUES(?,?,?)";
+    private static final String INSERT_NEW = "INSERT INTO t_status VALUES(?,?,?,?)";
     private static final String MAX = "SELECT * FROM t_status ORDER BY ID DESC LIMIT 1";
-
-    public static void main(String[] args) {
-        TStatus ts = new TStatus();
-        ts.insert( "new", 200, null );
-    }
 
     PreparedStatement preparedStatement = null;
 
-    private Connection connection() {
+    private Connection connection() throws SQLException {
         Connection connection = null;
-        try {
+
             connection = DriverManager.getConnection( HOST, USERNAME, PASSWORD );
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
         return connection;
     }
 
