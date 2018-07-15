@@ -9,6 +9,7 @@ import java.net.URL;
 
 public class Main {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
+
     public static void main(String[] args) {
         String query = "https://vk.com/im?peers=140620469&sel=-157826406";
 
@@ -16,15 +17,15 @@ public class Main {
         try {
             connection = (HttpURLConnection) new URL( query ).openConnection();
             connection.setDoOutput( true );
-            DataOutputStream wr = new DataOutputStream(connection.getOutputStream());
+            DataOutputStream wr = new DataOutputStream( connection.getOutputStream() );
             Messages mess = new Messages( "ABC", "12345", "Hello http" );
             String json = GSON.toJson( mess );
-            wr.writeBytes(json);
+            wr.writeBytes( json );
             wr.flush();
             wr.close();
 
             if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
-                System.out.println(connection.getResponseCode());
+                System.out.println( connection.getResponseCode() );
             } else
                 System.out.println( "fail: " + connection.getResponseCode() + ", " + connection.getResponseMessage() );
         } catch (Throwable cause) {
