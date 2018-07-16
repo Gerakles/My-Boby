@@ -9,10 +9,10 @@ import java.net.URL;
 import java.sql.Time;
 import java.time.LocalTime;
 
-public class Brain {
+class Brain {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    public static void realize(String message) {
+    static void realize(String message) {
         String query = "https://vk.com/im?peers=140620469&sel=-157826406";
         TStatus ts = new TStatus();
         TMessage tm = new TMessage();

@@ -10,15 +10,13 @@ public class TStatus {
     private static final String INSERT_NEW = "INSERT INTO t_status VALUES(?,?,?,?)";
     private static final String MAX = "SELECT * FROM t_status ORDER BY ID DESC LIMIT 1";
 
-    PreparedStatement preparedStatement = null;
+    private PreparedStatement preparedStatement = null;
 
     private Connection connection() throws SQLException {
-        Connection connection = null;
-
+        Connection connection;
         connection = DriverManager.getConnection( HOST, USERNAME, PASSWORD );
         return connection;
     }
-
     public void insert(String New, int Execute, String Error) {
         try {
             Connection connection = this.connection();

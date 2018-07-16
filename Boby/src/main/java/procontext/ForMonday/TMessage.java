@@ -10,10 +10,10 @@ public class TMessage {
     private static final String INSERT_NEW = "INSERT INTO t_message VALUES(?,?,?,?,?)";
     private static final String MAX = "SELECT * FROM t_message ORDER BY ID DESC LIMIT 1";
 
-    PreparedStatement preparedStatement = null;
+    private PreparedStatement preparedStatement = null;
 
     private Connection connection() throws SQLException {
-        Connection connection = null;
+        Connection connection;
 
         connection = DriverManager.getConnection( HOST, USERNAME, PASSWORD );
         return connection;
