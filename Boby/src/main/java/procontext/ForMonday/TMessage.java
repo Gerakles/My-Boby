@@ -11,6 +11,7 @@ public class TMessage {
     private static final String MAX = "SELECT * FROM t_message ORDER BY ID DESC LIMIT 1";
 
     PreparedStatement preparedStatement = null;
+
     private Connection connection() throws SQLException {
         Connection connection = null;
 

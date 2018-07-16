@@ -15,7 +15,7 @@ public class TStatus {
     private Connection connection() throws SQLException {
         Connection connection = null;
 
-            connection = DriverManager.getConnection( HOST, USERNAME, PASSWORD );
+        connection = DriverManager.getConnection( HOST, USERNAME, PASSWORD );
         return connection;
     }
 

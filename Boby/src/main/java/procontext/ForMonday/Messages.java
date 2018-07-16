@@ -2,6 +2,7 @@ package procontext.ForMonday;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
 import java.util.Scanner;
 
 public class Messages {
@@ -17,21 +18,23 @@ public class Messages {
         this.message = message;
     }
 
-    public String getLogin() {
-        return login;
-    }
-    public String getPass() {
-        return pass;
-    }
-    public String getMessage() {
-        return message;
-    }
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner( System.in );
         String message = sc.nextLine();
         Messages mess = new Messages( "ABC", "12345", message );
         String json = GSON.toJson( mess );
-        System.out.println(json);
+        System.out.println( json );
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public String getPass() {
+        return pass;
+    }
+
+    public String getMessage() {
+        return message;
     }
 }
