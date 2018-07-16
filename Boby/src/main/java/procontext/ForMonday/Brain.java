@@ -30,11 +30,15 @@ public class Brain {
                 if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
                     ts.insert( "new", 1, null );
                     tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "ok" );
-                } else { ts.insert( "new", 0, "Error" );
+                } else {
+                    ts.insert( "new", 0, "Error" );
                     tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "error" );
                 }
             }
-        } catch (Throwable cause) { cause.printStackTrace(); }
-        finally { if (connection != null) connection.disconnect(); }
+        } catch (Throwable cause) {
+            cause.printStackTrace();
+        } finally {
+            if (connection != null) connection.disconnect();
+        }
     }
 }

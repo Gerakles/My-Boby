@@ -35,9 +35,7 @@ public class TMessage {
                 preparedStatement.setString( 5, execute );
                 preparedStatement.executeUpdate();
             }
-
             statement.close();
-
         } catch (SQLException e) {
             e.printStackTrace();
         }

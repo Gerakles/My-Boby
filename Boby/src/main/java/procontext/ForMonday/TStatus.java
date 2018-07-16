@@ -34,9 +34,7 @@ public class TStatus {
                 preparedStatement.setString( 4, Error );
                 preparedStatement.executeUpdate();
             }
-
             statement.close();
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
