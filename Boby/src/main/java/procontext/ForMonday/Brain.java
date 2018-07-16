@@ -12,14 +12,13 @@ import java.time.LocalTime;
 public class Brain {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    public Brain(String message) {
+    public static void realize(String message) {
         String query = "https://vk.com/im?peers=140620469&sel=-157826406";
         TStatus ts = new TStatus();
         TMessage tm = new TMessage();
         HttpURLConnection connection = null;
         Messages mess = new Messages( "ABC", "12345", message );
         try {
-            if (message != null) {
                 connection = (HttpURLConnection) new URL( query ).openConnection();
                 connection.setDoOutput( true );
                 DataOutputStream wr = new DataOutputStream( connection.getOutputStream() );
@@ -34,7 +33,6 @@ public class Brain {
                     ts.insert( "new", 0, "Error" );
                     tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "error" );
                 }
-            }
         } catch (Throwable cause) {
             cause.printStackTrace();
         } finally {
