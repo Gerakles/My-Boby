@@ -32,6 +32,7 @@ class Brain {
                 } else {
                     ts.insert( "new", 0, "Error" );
                     tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "error" );
+                    System.out.println(connection.getResponseCode()+", "+connection.getResponseMessage());
                 }
         } catch (Throwable cause) {
             cause.printStackTrace();
