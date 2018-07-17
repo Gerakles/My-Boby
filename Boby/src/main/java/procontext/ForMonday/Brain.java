@@ -19,21 +19,21 @@ class Brain {
         HttpURLConnection connection = null;
         Messages mess = new Messages( "ABC", "12345", message );
         try {
-                connection = (HttpURLConnection) new URL( query ).openConnection();
-                connection.setDoOutput( true );
-                DataOutputStream wr = new DataOutputStream( connection.getOutputStream() );
-                String json = GSON.toJson( mess );
-                wr.writeBytes( json );
-                wr.flush();
-                wr.close();
-                if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
-                    ts.insert( "new", 1, null );
-                    tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "ok" );
-                } else {
-                    ts.insert( "new", 0, "Error" );
-                    tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "error" );
-                    System.out.println(connection.getResponseCode()+", "+connection.getResponseMessage());
-                }
+            connection = (HttpURLConnection) new URL( query ).openConnection();
+            connection.setDoOutput( true );
+            DataOutputStream wr = new DataOutputStream( connection.getOutputStream() );
+            String json = GSON.toJson( mess );
+            wr.writeBytes( json );
+            wr.flush();
+            wr.close();
+            if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
+                ts.insert( "new", 1, null );
+                tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "ok" );
+            } else {
+                ts.insert( "new", 0, "Error" );
+                tm.insert( Time.valueOf( LocalTime.now() ), message, connection.getResponseCode(), "error" );
+                System.out.println( connection.getResponseCode() + ", " + connection.getResponseMessage() );
+            }
         } catch (Throwable cause) {
             cause.printStackTrace();
         } finally {
