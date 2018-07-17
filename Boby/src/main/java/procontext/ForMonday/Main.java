@@ -9,7 +9,7 @@ public class Main {
             String message = sc.nextLine();
             if (message != null) {
                 Brain.realize( message );
-                System.out.println("ok");
+                System.out.println( "ok" );
             }
         }
     }

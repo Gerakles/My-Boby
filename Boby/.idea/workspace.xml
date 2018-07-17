@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -48,7 +47,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Brain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Brain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -151,11 +150,11 @@
         <option value="$PROJECT_DIR$/src/main/java/procontext/ExampleOfAnHTTPJavaRequest/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/Str.java" />
-        <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Messages.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" />
       </list>
     </option>
   </component>
@@ -197,67 +196,6 @@
             <path>
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
               <item name="Boby" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="procontext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="procontext" type="462c0819:PsiDirectoryNode" />
-              <item name="ForMonday" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resouces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -483,7 +421,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32789558" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.17397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.17397882" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
@@ -807,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -825,6 +756,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
