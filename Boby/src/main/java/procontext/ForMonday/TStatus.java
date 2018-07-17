@@ -17,6 +17,7 @@ public class TStatus {
         connection = DriverManager.getConnection( HOST, USERNAME, PASSWORD );
         return connection;
     }
+
     public void insert(String New, int Execute, String Error) {
         try {
             Connection connection = this.connection();
