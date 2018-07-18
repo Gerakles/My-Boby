@@ -1,6 +1,6 @@
 package procontext.ForMonday;
 
-class Messages {
+class Messages { // 280 b
     private String login;
     private String pass;
     private String message;
