@@ -9,7 +9,7 @@ import java.net.URL;
 import java.sql.Time;
 import java.time.LocalTime;
 
-class Brain {
+class Brain { // 1.66 kb
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     static void realize(String message) {
