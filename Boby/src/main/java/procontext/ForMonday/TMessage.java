@@ -2,7 +2,7 @@ package procontext.ForMonday;
 
 import java.sql.*;
 
-public class TMessage {
+public class TMessage { //1.67 kb
     private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
