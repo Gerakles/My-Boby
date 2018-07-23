@@ -22,7 +22,7 @@ public class Brain { //8.75 kb
     private JPanel mPanel;
 
     private Brain() throws InterruptedException {
-        Color yellow = new Color( 212, 172, 13 );
+        Color yellow = new Color( 187, 100, 125 );
         Color gray1 = new Color( 187, 158, 207 );
 
         frame = new JFrame( "Relax Game" );
