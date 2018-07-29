@@ -46,15 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution9.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution9.java">
+      <file leaf-file-name="Solution10.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -74,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DBWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mains.java" />
         <option value="$PROJECT_DIR$/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main3.java" />
@@ -125,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution8.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution9.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java" />
       </list>
     </option>
   </component>
@@ -233,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution8">
+  <component name="RunManager" selected="Application.Solution10">
     <configuration name="Quotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise.Quotes" />
       <module name="Body" />
@@ -245,8 +241,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.Solution1" />
+    <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.Solution10" />
       <module name="Body" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -342,19 +338,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution4" />
       <item itemvalue="Application.Solution6" />
       <item itemvalue="Application.Solution7" />
       <item itemvalue="Application.Solution8" />
+      <item itemvalue="Application.Solution10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution10" />
         <item itemvalue="Application.Solution8" />
         <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.Solution6" />
         <item itemvalue="Application.Solution4" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +472,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="db://ff526397-0c36-4c97-a172-ac1e57685105/objects/schemas/mydbtest/tables/brain" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/JScrollPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -752,6 +747,13 @@
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#147#148#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
