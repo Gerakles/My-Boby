@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -47,24 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution10.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java">
+      <file leaf-file-name="Solution11.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution11.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution11.java">
+      <file leaf-file-name="Solution12.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -84,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main3.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainBrain.java" />
@@ -135,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution9.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution12.java" />
       </list>
     </option>
   </component>
@@ -243,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution10">
+  <component name="RunManager" selected="Application.Solution12">
     <configuration name="Quotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise.Quotes" />
       <module name="Body" />
@@ -266,8 +261,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.Solution4" />
+    <configuration name="Solution12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.Solution12" />
       <module name="Body" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -352,19 +347,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution4" />
       <item itemvalue="Application.Solution6" />
       <item itemvalue="Application.Solution7" />
       <item itemvalue="Application.Solution8" />
       <item itemvalue="Application.Solution10" />
+      <item itemvalue="Application.Solution12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution12" />
         <item itemvalue="Application.Solution10" />
         <item itemvalue="Application.Solution8" />
         <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.Solution6" />
-        <item itemvalue="Application.Solution4" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +481,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercise/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/exercise/Interval.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/exercise/Intercection.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/exercise/IntersectionTest.java" />
@@ -766,12 +760,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
