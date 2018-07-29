@@ -158,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +195,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -233,12 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution6">
-    <configuration name="Brain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Brain" />
-      <module name="Body" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.Solution7">
     <configuration name="Quotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise.Quotes" />
       <module name="Body" />
@@ -294,6 +289,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.Solution7" />
+      <module name="Body" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaRush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -336,19 +342,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Brain (1)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution4" />
       <item itemvalue="Application.Solution6" />
+      <item itemvalue="Application.Solution7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.Solution6" />
         <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Brain (1)" />
       </list>
     </recent_temporary>
   </component>
