@@ -46,11 +46,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="11" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ModifiableBackgroundFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/Names.form" />
         <option value="$PROJECT_DIR$/src/main/java/Names.java" />
         <option value="$PROJECT_DIR$/src/main/java/Boby.java" />
@@ -121,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution2.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution1.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution4.java" />
       </list>
     </option>
   </component>
@@ -229,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution1">
+  <component name="RunManager" selected="Application.Solution4">
     <configuration name="Brain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Brain" />
       <module name="Body" />
@@ -279,13 +292,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Str" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Str" />
+    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.Solution4" />
       <module name="Body" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="JavaRush.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,18 +346,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Str" />
       <item itemvalue="Application.Brain (1)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution1" />
+      <item itemvalue="Application.Solution4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Brain (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Str" />
       </list>
     </recent_temporary>
   </component>
@@ -466,13 +479,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3961">
-          <caret line="233" column="3" selection-start-line="233" selection-start-column="3" selection-end-line="233" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resouces/test.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -724,8 +730,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="11" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Solution4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
