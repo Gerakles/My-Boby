@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Brain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Brain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -54,7 +53,7 @@
               <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -401,7 +400,6 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32789558" />
       <window_info anchor="right" id="DB Browser" order="8" weight="0.32980332" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32789558" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" weight="0.3294893" />
@@ -413,7 +411,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32789558" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.204236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
@@ -426,6 +424,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32789558" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -675,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,10 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,10 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,10 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,7 +728,7 @@
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
