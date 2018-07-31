@@ -14,7 +14,7 @@ public class Solution8 {
         x = y - x;
         y = y - x;
 
-        System.out.println(x);
-        System.out.println(y);
+        System.out.println( x );
+        System.out.println( y );
     }
 }
