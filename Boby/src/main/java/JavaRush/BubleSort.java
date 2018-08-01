@@ -2,7 +2,7 @@ package JavaRush;
 
 public class BubleSort {
     public static void main(String[] args) {
-        int[] massif = {13, 3, 8, 1, 15, 2, 3, 7, 4, 3, 1, 4, 1, 5, 9};
+        int[] massif = {13, 3, 8, 1, 15, 2, 3, 7, 4, 3, 1, 4, 1, 5, 9, 2};
         System.out.print( "Массив до сортировки: " );
         for (int aMassif : massif) System.out.print( aMassif + " " );
         System.out.println();
