@@ -1,4 +1,6 @@
 package app.servlets;
 
-public class ListServlet {
+import javax.servlet.http.HttpServlet;
+
+public class ListServlet extends HttpServlet {
 }
