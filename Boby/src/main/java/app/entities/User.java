@@ -48,4 +48,11 @@ public class User {
         if (name != null ? !name.equals(user.name) : user.name != null) return false;
         return password != null ? password.equals(user.password) : user.password == null;
     }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (password != null ? password.hashCode() : 0);
+        return result;
+    }
 }
