@@ -286,7 +286,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533251128556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533281772907" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaEE" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -323,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Index.html">
+  <component name="RunManager" selected="Application.SingletonTest">
     <configuration name="Brain$DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Brain$DB" />
       <module name="Body" />
@@ -332,10 +332,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Brain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Brain" />
-      <module name="Body" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.SingletonTest" />
+      <module name="Boby" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaRush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -712,19 +718,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="Application.Brain" />
       <item itemvalue="Application.Brain$DB" />
       <item itemvalue="Tomcat Server.Index.html" />
       <item itemvalue="Tomcat Server.Index.html (1)" />
       <item itemvalue="Tomcat Server.Index.html (2)" />
+      <item itemvalue="Application.SingletonTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Tomcat Server.Index.html" />
         <item itemvalue="Tomcat Server.Index.html (2)" />
         <item itemvalue="Tomcat Server.Index.html (1)" />
         <item itemvalue="Application.Brain$DB" />
-        <item itemvalue="Application.Brain" />
       </list>
     </recent_temporary>
   </component>
