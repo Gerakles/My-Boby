@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/AdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -102,16 +102,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/AdapterTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/BuilderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="193">
+              <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/ChainofResponsibilityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/CommandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/CompositeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
               <folding>
-                <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,14 +202,10 @@
         <option value="$PROJECT_DIR$/web/views/list.jsp" />
         <option value="$PROJECT_DIR$/web/views/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/PrototypeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/BuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/CompositeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/FlyweightTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/FacadeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/TemplateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/MediatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/ChainofResponsibilityTest.java" />
@@ -180,12 +214,16 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/CommandTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/StateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/VisitorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/InterpreterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/IteratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/MementoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/AbstractFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/BridgeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/AdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/IteratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/InterpreterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/FlyweightTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/FacadeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java" />
       </list>
     </option>
   </component>
@@ -292,7 +330,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533360838434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533360878665" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaEE" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -588,7 +626,7 @@
       <workItem from="1533242865528" duration="6418000" />
       <workItem from="1533278936296" duration="4529000" />
       <workItem from="1533337149903" duration="624000" />
-      <workItem from="1533360451255" duration="257000" />
+      <workItem from="1533360451255" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -612,7 +650,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32331000" />
+    <option name="totallyTimeSpent" value="32645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1020,45 +1058,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/IteratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/FacadeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/FactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/FlyweightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="476">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/InterpreterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="510">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/IteratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/FlyweightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="510">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/FacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
