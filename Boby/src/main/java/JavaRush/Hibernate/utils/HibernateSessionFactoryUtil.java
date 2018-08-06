@@ -1,4 +1,4 @@
-package JavaRush.Hibernate;
+package JavaRush.Hibernate.utils;
 
 public class HibernateSessionFactoryUtil {
 }
