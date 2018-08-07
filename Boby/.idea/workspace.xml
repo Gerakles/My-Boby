@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -122,7 +122,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="java" value="58" />
+          <entry key="java" value="59" />
           <entry key="jsp" value="6" />
           <entry key="sql" value="1" />
           <entry key="table_name" value="1" />
@@ -135,7 +135,7 @@
         <counts>
           <entry key="Database Element" value="2" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="58" />
+          <entry key="JAVA" value="59" />
           <entry key="JSP" value="6" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="9" />
@@ -144,7 +144,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="953" />
+          <entry key="java" value="1175" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="17" />
@@ -154,7 +154,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="953" />
+          <entry key="JAVA" value="1175" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="23" />
@@ -178,10 +178,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#541#542#0" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
@@ -237,7 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution7.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution8.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution11.java" />
@@ -288,6 +296,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" />
       </list>
     </option>
   </component>
@@ -377,16 +386,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JavaRush" type="462c0819:PsiDirectoryNode" />
               <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaRush" type="462c0819:PsiDirectoryNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
@@ -722,7 +721,7 @@
       <workItem from="1533465154388" duration="599000" />
       <workItem from="1533491174896" duration="2214000" />
       <workItem from="1533582655166" duration="3727000" />
-      <workItem from="1533630586295" duration="3830000" />
+      <workItem from="1533630586295" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -746,7 +745,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44034000" />
+    <option name="totallyTimeSpent" value="45291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1140,13 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1168,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
@@ -1188,6 +1180,13 @@
             <element signature="e#1010#1011#0" expanded="true" />
             <element signature="e#1042#1043#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
