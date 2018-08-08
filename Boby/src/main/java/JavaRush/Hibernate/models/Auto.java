@@ -10,7 +10,6 @@ public class Auto {
     private int id;
     @Column(name = "model")
     private String model;
-
     private String color;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
