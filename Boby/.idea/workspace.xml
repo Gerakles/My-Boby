@@ -8,175 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Boby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Boby.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Brain$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Audio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Brain$DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Nums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Restarts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Brain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ABank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/AbstractFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/AdapterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BlueCarDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BridgeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BubleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Build.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CarDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CarInvoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CarVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Cars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carsss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carssss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carsssss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carssssss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carsssssss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ChainofResponsibilityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ComplicatedObject$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ComplicatedObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CompositeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Contexts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Copyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/DecoratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Director.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/DownloadLinuxStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/DownloadWindownsStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Drawing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Engines.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Enginess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Enginesss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Expression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Facade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/FacadeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/FactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Factorys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Ferrari.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Flyweight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/FlyweightTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/InteAbsFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/InterpreterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/IteratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Key.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Lada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/LoverExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Matematical.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Matrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Mediator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/MediatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Memento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/MementoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Numbers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Numbers$NumbersIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Numbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ObserverTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OneBuilderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OneCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OneEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PBank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PBankAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PayPalPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PlayContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Porshe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PrototypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ProxyImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RealImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuCarPriceAbsFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuFerrariImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuLadaImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuPorsheImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SaveUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCarss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCarsss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StartCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StartPlay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StopCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StopPlay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Strategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StrategyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TemplateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TwoBuilderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TwoCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TwoEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaCarPriceAbsFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaFerrariImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaLadaImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaPorsheImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/University.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownCars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownCarss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UpperExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/VisaPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/VisitorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Whell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/linuxOS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/macOS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/windowsOS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/AddServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/ListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/DBWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Rps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercise/CrossingPeriods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercise/Quotes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/Brain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/TMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/TStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestFour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestThree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/SerializationOfObjectsInJava/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/WorkingWithJSONInJava/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/procontext/WorkingWithJSONInJava/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -243,10 +75,10 @@
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.81" value="2" />
           <entry key="project.open.time.82" value="2" />
-          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.83" value="2" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -307,23 +139,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="153">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="91" lean-forward="true" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -422,8 +245,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" />
       </list>
     </option>
   </component>
@@ -835,6 +658,7 @@
       <workItem from="1533630586295" duration="5770000" />
       <workItem from="1533668608084" duration="1972000" />
       <workItem from="1533670646003" duration="2610000" />
+      <workItem from="1533751331290" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -871,8 +695,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.20801815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1231,20 +1056,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://1a1d169b-4de2-46a0-882f-838dee5660d3/database/postgres/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1a1d169b-4de2-46a0-882f-838dee5660d3/database/postgres/schema/public/table/table_name">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://1a1d169b-4de2-46a0-882f-838dee5660d3/database/postgres/schema/public/table/users" />
+    <entry file="das://1a1d169b-4de2-46a0-882f-838dee5660d3/database/postgres/schema/public/table/table_name" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1274,20 +1087,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="91" lean-forward="true" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
