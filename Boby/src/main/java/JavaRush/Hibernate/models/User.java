@@ -34,7 +34,6 @@ public class User {
     public void removeAuto(Auto auto) {
         autos.remove( auto );
     }
-
     public int getId() {
         return id;
     }
