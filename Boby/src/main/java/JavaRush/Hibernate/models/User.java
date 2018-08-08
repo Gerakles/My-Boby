@@ -13,7 +13,6 @@ public class User {
     @Column(name = "name")
     private String name;
     private int age;
-
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List <Auto> autos;
 
