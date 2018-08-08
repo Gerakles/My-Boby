@@ -37,31 +37,24 @@ public class User {
     public int getId() {
         return id;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
-
     public List <Auto> getAutos() {
         return autos;
     }
-
     public void setAutos(List <Auto> autos) {
         this.autos = autos;
     }
-
     @Override
     public String toString() {
         return "models.User(" +
