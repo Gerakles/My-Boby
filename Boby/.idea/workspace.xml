@@ -8,7 +8,175 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Boby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Boby.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$DB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Nums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Restarts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ABank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/AbstractFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/AdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BlueCarDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BridgeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BubleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Build.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/BuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CarDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CarInvoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CarVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Cars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carsss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carssss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carsssss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carssssss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Carsssssss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ChainofResponsibilityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CommandTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ComplicatedObject$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ComplicatedObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/CompositeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Contexts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Copyable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/DecoratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/DownloadLinuxStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/DownloadWindownsStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Drawing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Engines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Enginess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Enginesss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Facade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/FacadeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/FactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Factorys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Ferrari.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Flyweight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/FlyweightTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/InteAbsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/InterpreterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/IteratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Lada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/LoverExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Matematical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Matrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Mediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/MediatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/MementoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Numbers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Numbers$NumbersIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ObserverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OneBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OneCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/OneEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PBankAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PayPalPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PlayContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Porshe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/PrototypeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ProxyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/ProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuCarPriceAbsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuFerrariImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuLadaImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/RuPorsheImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SaveUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Solution9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCarss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportCarsss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/SportEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StartCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StartPlay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StopCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StopPlay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/StrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TemplateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TwoBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TwoCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/TwoEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaCarPriceAbsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaFerrariImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaLadaImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UaPorsheImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownCars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownCarss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UnknownEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/UpperExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/VisaPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/VisitorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/Whell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/linuxOS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/macOS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaRush/windowsOS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/AddServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/ListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/DBWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Main3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Rps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercise/CrossingPeriods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercise/Quotes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/Brain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/Messages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/TMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/ForMonday/TStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestFour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/SerializationOfObjectsInJava/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/WorkingWithJSONInJava/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/procontext/WorkingWithJSONInJava/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -58,56 +226,18 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1176878848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.75" value="1" />
@@ -116,7 +246,7 @@
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -128,7 +258,7 @@
           <entry key="table_name" value="1" />
           <entry key="tld" value="2" />
           <entry key="users" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -138,7 +268,7 @@
           <entry key="JAVA" value="59" />
           <entry key="JSP" value="6" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="10" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -148,7 +278,7 @@
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="17" />
-          <entry key="xml" value="98" />
+          <entry key="xml" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -158,7 +288,7 @@
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="23" />
-          <entry key="XML" value="98" />
+          <entry key="XML" value="118" />
         </counts>
       </usages-collector>
     </session>
@@ -171,7 +301,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="561">
               <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
             </state>
           </provider>
@@ -191,31 +321,20 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="91" lean-forward="true" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
                 <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,8 +343,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
@@ -254,7 +373,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution8.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution10.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution11.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Solution12.java" />
@@ -305,6 +423,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
       </list>
     </option>
   </component>
@@ -351,7 +470,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -394,12 +512,6 @@
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
               <item name="Boby" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boby" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -407,6 +519,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,10 +530,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533636623299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533636683628" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaEE" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -719,7 +832,9 @@
       <workItem from="1533465154388" duration="599000" />
       <workItem from="1533491174896" duration="2214000" />
       <workItem from="1533582655166" duration="3727000" />
-      <workItem from="1533630586295" duration="5462000" />
+      <workItem from="1533630586295" duration="5770000" />
+      <workItem from="1533668608084" duration="1972000" />
+      <workItem from="1533670646003" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -743,7 +858,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45666000" />
+    <option name="totallyTimeSpent" value="50556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,7 +872,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.20499243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.20801815" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -765,6 +880,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" sideWeight="0.50490195" side_tool="true" weight="0.20499243" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36764705" />
@@ -774,14 +890,13 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32626426" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" weight="0.3294893" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32626426" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3294893" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32626426" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32789558" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32843137" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32843137" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32843137" />
-      <window_info anchor="right" id="CDI" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -792,6 +907,7 @@
       <window_info anchor="right" id="DB Browser" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="8" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="CDI" order="10" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1131,44 +1247,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="561">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
             <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1184,7 +1285,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="91" lean-forward="true" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1240,7 +1345,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Boby</last-edited>
+          <last-edited>Hibernate|Boby</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1264,7 +1369,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: mysql:mysql-connector-java:8.0.11</last-edited>
+          <last-edited>Maven: org.postgresql:postgresql:9.3.3-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
