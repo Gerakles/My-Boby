@@ -8,9 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -60,7 +59,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -96,7 +100,7 @@
           <entry key="table_name" value="1" />
           <entry key="tld" value="2" />
           <entry key="users" value="1" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -106,7 +110,7 @@
           <entry key="JAVA" value="59" />
           <entry key="JSP" value="6" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -116,7 +120,7 @@
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="17" />
-          <entry key="xml" value="118" />
+          <entry key="xml" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -126,7 +130,7 @@
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="23" />
-          <entry key="XML" value="118" />
+          <entry key="XML" value="119" />
         </counts>
       </usages-collector>
     </session>
@@ -135,7 +139,26 @@
     <favorites_list name="Boby" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://daa33d39-9e50-4a12-9db0-01f651686efb/database/postgres/schema/public/table/table_name">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,11 +223,11 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/Auto.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/Auto.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
       </list>
     </option>
   </component>
@@ -620,7 +643,7 @@
       <workItem from="1533817957169" duration="596000" />
       <workItem from="1533896542239" duration="591000" />
       <workItem from="1534014549538" duration="601000" />
-      <workItem from="1534015833242" duration="461000" />
+      <workItem from="1534015833242" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -644,7 +667,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53955000" />
+    <option name="totallyTimeSpent" value="54232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,6 +680,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.22314675" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
@@ -692,7 +716,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
       <window_info anchor="right" id="DB Browser" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="8" side_tool="true" weight="0.24962178" />
-      <window_info active="true" anchor="right" id="Database" order="9" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
       <window_info anchor="right" id="CDI" order="10" weight="0.32980332" />
     </layout>
   </component>
@@ -1019,13 +1043,6 @@
     </entry>
     <entry file="das://1a1d169b-4de2-46a0-882f-838dee5660d3/database/postgres/schema/public/table/users" />
     <entry file="das://1a1d169b-4de2-46a0-882f-838dee5660d3/database/postgres/schema/public/table/table_name" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/utils/HibernateSessionFactoryUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1051,6 +1068,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
         </state>
       </provider>
     </entry>
