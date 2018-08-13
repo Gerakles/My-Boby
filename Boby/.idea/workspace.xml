@@ -7,36 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Nums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Restarts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/Brain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/BackgroundSample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/BackgroundSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/DBWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/MainBrain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/Mains.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/Rps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/demo/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/exercise/CrossingPeriods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/exercise/Quotes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/get/n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/ExampleOfAnHTTPJavaRequest/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/ForMonday/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/FourExamplesReadingFromAFileUsingJava/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestFour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestThree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/FourExamplesReadingFromAFileUsingJava/TestTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/SerializationOfObjectsInJava/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/WorkingWithJSONInJava/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/procontext/WorkingWithJSONInJava/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,7 +83,7 @@
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.70" value="1" />
@@ -123,13 +97,13 @@
           <entry key="project.open.time.83" value="2" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="4" />
-          <entry key="java" value="90" />
+          <entry key="java" value="92" />
           <entry key="jsp" value="9" />
           <entry key="sql" value="1" />
           <entry key="table_name" value="2" />
@@ -142,7 +116,7 @@
         <counts>
           <entry key="Database Element" value="3" />
           <entry key="HTML" value="4" />
-          <entry key="JAVA" value="90" />
+          <entry key="JAVA" value="92" />
           <entry key="JSP" value="9" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="13" />
@@ -151,7 +125,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="1625" />
+          <entry key="java" value="1679" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="17" />
@@ -161,7 +135,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="1625" />
+          <entry key="JAVA" value="1679" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="23" />
@@ -178,13 +152,48 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+            <state relative-caret-position="2295">
+              <caret line="135" column="114" selection-start-line="135" selection-start-column="114" selection-end-line="135" selection-end-column="114" />
               <folding>
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2217#2218#0" expanded="true" />
+                <element signature="e#2266#2267#0" expanded="true" />
+                <element signature="e#2312#2313#0" expanded="true" />
+                <element signature="e#2742#2743#0" expanded="true" />
+                <element signature="e#2801#2802#0" expanded="true" />
+                <element signature="e#2858#2859#0" expanded="true" />
+                <element signature="e#2923#2924#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -253,13 +262,13 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/Hibernate/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/Model.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hibernate/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Sex.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java" />
       </list>
     </option>
   </component>
@@ -306,7 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -371,8 +380,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +392,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534186894570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534196113250" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="D:/Programs/PracticeRoom2-master/PracticeRoom2-master" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -422,7 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.User">
     <configuration name="InterpreterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaRush.patern.InterpreterTest" />
       <module name="Boby" />
@@ -465,13 +474,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.patern.VisitorTest" />
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.example.User" />
       <module name="Boby" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaRush.lessons.*" />
+          <option name="PATTERN" value="JavaRush.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -649,19 +658,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="Application.VisitorTest" />
       <item itemvalue="Application.InterpreterTest" />
       <item itemvalue="Application.IteratorTest" />
       <item itemvalue="Application.MementoTest" />
       <item itemvalue="Application.main" />
+      <item itemvalue="Application.User" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.User" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.MementoTest" />
         <item itemvalue="Application.IteratorTest" />
         <item itemvalue="Application.InterpreterTest" />
-        <item itemvalue="Application.VisitorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -695,6 +704,7 @@
       <workItem from="1534014549538" duration="601000" />
       <workItem from="1534015833242" duration="5369000" />
       <workItem from="1534185088175" duration="1762000" />
+      <workItem from="1534194912017" duration="1183000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -718,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60700000" />
+    <option name="totallyTimeSpent" value="61883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -733,7 +743,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.22314675" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.22617246" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -744,7 +754,7 @@
       <window_info id="Persistence" order="8" sideWeight="0.50490195" side_tool="true" weight="0.20499243" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36764705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36764705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -977,27 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1131,22 +1120,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Sex.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Sex.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="174">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        <state relative-caret-position="2295">
+          <caret line="135" column="114" selection-start-line="135" selection-start-column="114" selection-end-line="135" selection-end-column="114" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2742#2743#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2923#2924#0" expanded="true" />
           </folding>
         </state>
       </provider>

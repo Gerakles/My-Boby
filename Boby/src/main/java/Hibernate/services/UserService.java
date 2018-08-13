@@ -29,9 +29,9 @@ public class UserService {
         usersDao.update(user);
     }
 
-    public List<User> findAllUsers() {
-        return usersDao.findAll();
-    }
+//    public List<User> findAllUsers() {
+//        return usersDao.findAll();
+//    }
 
     public Auto findAutoById(int id) {
         return usersDao.findAutoById(id);
