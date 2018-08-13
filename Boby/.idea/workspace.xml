@@ -151,7 +151,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="1496" />
+          <entry key="java" value="1625" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="17" />
@@ -161,7 +161,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="1496" />
+          <entry key="JAVA" value="1625" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="23" />
@@ -178,12 +178,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#683#684#0" expanded="true" />
                 <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -382,7 +383,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534186186153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534186894570" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="D:/Programs/PracticeRoom2-master/PracticeRoom2-master" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -693,7 +694,7 @@
       <workItem from="1533896542239" duration="591000" />
       <workItem from="1534014549538" duration="601000" />
       <workItem from="1534015833242" duration="5369000" />
-      <workItem from="1534185088175" duration="1504000" />
+      <workItem from="1534185088175" duration="1762000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -717,7 +718,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60442000" />
+    <option name="totallyTimeSpent" value="60700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1139,12 +1140,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="527">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#683#684#0" expanded="true" />
             <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
           </folding>
         </state>
       </provider>
