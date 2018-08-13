@@ -1,5 +1,6 @@
 package JavaRush.example;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
@@ -27,5 +28,37 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash( name, age, sex );
+    }
+
+    public User(String name, int age, Sex sex) {
+        if (allUsers == null) {
+            allUsers = new HashMap <>(  );
+        }
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+
+        if (!hasUser()) {
+            countId++;
+            this.id = countId;
+            allUsers.put( id, this );
+        }
+    }
+    private boolean hasUser() {
+        for (User user : allUsers.values()) {
+            if (user.equals( this ) && user.hashCode() == this.hashCode())
+                return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", sex=" + sex +
+                '}';
     }
 }
