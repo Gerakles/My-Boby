@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.lessons;
 
 /*
 2 + 3 = 5

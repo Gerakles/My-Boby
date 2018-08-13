@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 interface Engine {
     String getEngineType();

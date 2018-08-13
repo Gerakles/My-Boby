@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 interface Lada {
     long getLadaPrice();

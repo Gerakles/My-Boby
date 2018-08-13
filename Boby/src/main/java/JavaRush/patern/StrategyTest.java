@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 interface Strategy {
     void download(String file);

@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 import java.util.ArrayList;
 import java.util.List;

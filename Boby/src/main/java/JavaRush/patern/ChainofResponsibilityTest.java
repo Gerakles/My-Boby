@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 interface Payment {
     void setNext(Payment payment);

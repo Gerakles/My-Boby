@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 interface Expression {
     String interpret(Contexts context);

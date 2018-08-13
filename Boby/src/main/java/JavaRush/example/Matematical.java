@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.example;
 
 public class Matematical {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 abstract class Carsssss {
     abstract void startEngine();

@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 class Flyweight {
     private int row;

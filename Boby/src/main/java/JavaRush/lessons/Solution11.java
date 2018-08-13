@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.lessons;
 
 /*
 Одной переменной недостаточно

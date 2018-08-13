@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 class Singleton {
     private static Singleton instance = null;

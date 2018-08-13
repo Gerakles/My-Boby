@@ -1,4 +1,4 @@
-package JavaRush;
+package JavaRush.patern;
 
 class PBank {
     private int balance;
