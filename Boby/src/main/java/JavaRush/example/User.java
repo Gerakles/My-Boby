@@ -13,35 +13,6 @@ public class User {
     private int age;
     private Sex sex;
 
-    public User(String name, int age, Sex sex) {
-        if (allUsers == null) {
-            allUsers = new HashMap <>();
-        }
-        this.name = name;
-        this.age = age;
-        this.sex = sex;
-
-        if (!hasUser()) {
-            countId++;
-            this.id = countId;
-            allUsers.put( id, this );
-        }
-    }
-
-    public static List <User> getAllUsers() {
-        return new ArrayList <>( allUsers.values() );
-    }
-
-    public static List <User> getAllUsers(Sex sex) {
-        List <User> listAllUsers = new ArrayList <>();
-        for (User user : allUsers.values()) {
-            if (user.sex == sex) {
-                listAllUsers.add( user );
-            }
-        }
-        return listAllUsers;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -57,6 +28,20 @@ public class User {
         return Objects.hash( name, age, sex );
     }
 
+    public User(String name, int age, Sex sex) {
+        if (allUsers == null) {
+            allUsers = new HashMap <>(  );
+        }
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+
+        if (!hasUser()) {
+            countId++;
+            this.id = countId;
+            allUsers.put( id, this );
+        }
+    }
     private boolean hasUser() {
         for (User user : allUsers.values()) {
             if (user.equals( this ) && user.hashCode() == this.hashCode())
@@ -74,6 +59,19 @@ public class User {
                 ", sex=" + sex +
                 '}';
     }
-    
 
+    public static List<User> getAllUsers() {
+        return new ArrayList <>( allUsers.values() );
+    }
+
+    public static List<User> getAllUsers(Sex sex) {
+        List<User> listAllUsers = new ArrayList <>(  );
+        for (User user : allUsers.values()) {
+            if (user.sex ==  sex) {
+                listAllUsers.add( user );
+            }
+        }
+        return listAllUsers;
+    }
+    
 }
