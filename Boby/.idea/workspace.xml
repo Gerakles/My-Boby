@@ -9,43 +9,7 @@
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Boby.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/BubleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/BubleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/Matematical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/Matematical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/Matrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/Matrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/AbstractFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/AdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/BridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/BridgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/BuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/ChainofResponsibilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/ChainofResponsibilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/CompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/CompositeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/DecoratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/FacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/FacadeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/FactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/FlyweightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/FlyweightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/InterpreterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/InterpreterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/IteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/MementoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/MementoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/ObserverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/PrototypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/PrototypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/StateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/StrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/StrategyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/TemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/patern/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/patern/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$Audio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/Brain$DB.class" beforeDir="false" />
@@ -166,7 +130,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="4" />
-          <entry key="java" value="89" />
+          <entry key="java" value="90" />
           <entry key="jsp" value="9" />
           <entry key="sql" value="1" />
           <entry key="table_name" value="2" />
@@ -179,7 +143,7 @@
         <counts>
           <entry key="Database Element" value="3" />
           <entry key="HTML" value="4" />
-          <entry key="JAVA" value="89" />
+          <entry key="JAVA" value="90" />
           <entry key="JSP" value="9" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="13" />
@@ -188,7 +152,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="1241" />
+          <entry key="java" value="1358" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="17" />
@@ -198,7 +162,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="1241" />
+          <entry key="JAVA" value="1358" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="23" />
@@ -212,83 +176,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/BuilderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/ChainofResponsibilityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/MementoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/ObserverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/PrototypeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/BubleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Matematical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Matrice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -312,8 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/Index.html" />
-        <option value="$PROJECT_DIR$/web/Index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/app/servlets/AddServret.java" />
         <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
@@ -363,6 +253,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hibernate/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Sex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/User.java" />
       </list>
     </option>
   </component>
@@ -448,6 +340,15 @@
               <item name="Boby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaRush" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -477,7 +378,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534021902458" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534185454903" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="D:/Programs/PracticeRoom2-master/PracticeRoom2-master" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -787,7 +688,7 @@
       <workItem from="1533896542239" duration="591000" />
       <workItem from="1534014549538" duration="601000" />
       <workItem from="1534015833242" duration="5369000" />
-      <workItem from="1534185088175" duration="309000" />
+      <workItem from="1534185088175" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -811,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59247000" />
+    <option name="totallyTimeSpent" value="59802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -905,13 +806,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/AdapterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/IteratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1206,7 +1100,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/patern/PrototypeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1231,10 +1125,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Sex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
