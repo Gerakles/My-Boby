@@ -378,7 +378,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534185454903" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534185975397" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="D:/Programs/PracticeRoom2-master/PracticeRoom2-master" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -387,21 +387,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\lectii\MyBoby\Boby\src\main\java" />
-      <recent name="D:\lectii\My Boby\Boby\src\main\java\get" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="exercise" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\lectii\MyBoby\Boby\web" />
       <recent name="D:\lectii\MyBoby\Boby\res" />
       <recent name="D:\lectii\MyBoby\Boby" />
       <recent name="D:\lectii\My Boby\Boby\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaRush.example" />
+      <recent name="exercise" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lectii\MyBoby\Boby\src\main\java" />
+      <recent name="D:\lectii\My Boby\Boby\src\main\java\get" />
     </key>
   </component>
   <component name="RunDashboard">
