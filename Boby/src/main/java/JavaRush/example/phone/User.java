@@ -7,7 +7,7 @@ public class User {
         this.name = name;
     }
 
-    public void callAnotherUser (int namber, AbstractPhone phone) {
+    public void callAnotherUser(int namber, AbstractPhone phone) {
         phone.call( namber );
     }
 }
