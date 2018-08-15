@@ -1,15 +1,11 @@
 package JavaRush.example.Classes;
 
 public class Animal {
-    public void meow() {
-        System.out.println("Moew!");
-    }
-
     public static void main(String[] args) {
         Animal anonTiger = new Animal() {
             @Override
             public void meow() {
-                System.out.println("Rrrrar!");
+                System.out.println( "Rrrrar!" );
             }
         };
 
@@ -18,10 +14,14 @@ public class Animal {
         notAnonTiger.meow();
     }
 
+    public void meow() {
+        System.out.println( "Moew!" );
+    }
+
     private class Tiger extends Animal {
 
         public void meow() {
-            System.out.println("Rrar!");
+            System.out.println( "Rrar!" );
         }
     }
 }
