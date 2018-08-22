@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import java.sql.*;
+import java.time.LocalTime;
 import java.util.Random;
 
 //Magic does not touch.
@@ -13,19 +14,15 @@ import java.util.Random;
 public class Brain { //8.75 kb
     private static int iter = 1;
     private static String playerName;
-    private static Audio gameOver;
-    private static Audio applause;
+    private static Audio gameOver, applause;
     private JTextArea output;
     private JTextField input;
-    private JButton newGame;
-    private JButton restart;
+    private JButton newGame, restart;
     private JFrame frame;
-    private JPanel buttonsPanel;
-    private JPanel mPanel;
+    private JPanel buttonsPanel, mPanel;
 
     private Brain() throws InterruptedException {
-        Color yellow = new Color( 187, 100, 125 );
-        Color gray1 = new Color( 187, 158, 207 );
+        Color lavanda = new Color( 187, 158, 207 );
 
         frame = new JFrame( "Relax Game" );
         frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
@@ -38,10 +35,10 @@ public class Brain { //8.75 kb
         newGame = new JButton( "" );
         restart.setBorderPainted( false );
         restart.setFocusPainted( false );
-        restart.setBackground( gray1 );
+        restart.setBackground( lavanda );
         newGame.setBorderPainted( false );
         newGame.setFocusPainted( false );
-        newGame.setBackground( gray1 );
+        newGame.setBackground( lavanda );
         restart.setIcon( new ImageIcon( "res\\n.png" ) );
         newGame.setIcon( new ImageIcon( "res\\s.png" ) );
         newGame.addActionListener( e -> {
@@ -56,7 +53,7 @@ public class Brain { //8.75 kb
         frame.add( buttonsPanel, BorderLayout.NORTH );
 
         input = new JTextField( 20 );
-        input.setBackground( gray1 );
+        input.setBackground( lavanda );
         input.setForeground( Color.RED );
         frame.add( input, BorderLayout.SOUTH );
 
@@ -66,10 +63,10 @@ public class Brain { //8.75 kb
         output = new JTextArea();
         Font font = new Font( "Arial", Font.PLAIN, 15 );
         output.setFont( font );
-        output.setBackground( gray1 );
-        output.setForeground( yellow );
+        output.setBackground( lavanda );
+        output.setForeground( Color.BLACK );
 
-        mPanel.setBackground( gray1 );
+        mPanel.setBackground( lavanda );
         mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
         String text = "HELLO my friend!" +
@@ -79,7 +76,7 @@ public class Brain { //8.75 kb
 
         for (char i : text.toCharArray()) {
             output.append( String.valueOf( i ) );
-            Thread.sleep( 150 );
+            Thread.sleep( 100 );
         }
     }
 
@@ -103,12 +100,11 @@ public class Brain { //8.75 kb
     }
 
     static class DB {
-        private static final String HOST = "jdbc:mysql://localhost:3306" +
-                "/mydbtest?useSSL=false&serverTimezone=UTC";
+        private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";
         private static final String USERNAME = "root";
         private static final String PASSWORD = "root";
 
-        private static final String INSERT_NEW = "INSERT INTO brain VALUES(?,?,?)";
+        private static final String INSERT_NEW = "INSERT INTO brain VALUES(?,?,?,?)";
         private static final String GET_ALL = "SELECT * FROM brain";
         private static final String MAX = "SELECT * FROM brain ORDER BY ID DESC LIMIT 1";
 
@@ -142,6 +138,7 @@ public class Brain { //8.75 kb
                     preparedStatement.setInt( 1, ++id );
                     preparedStatement.setString( 2, name );
                     preparedStatement.setInt( 3, score );
+                    preparedStatement.setString( 4, String.valueOf( Time.valueOf( LocalTime.now() ) ) );
                     preparedStatement.executeUpdate();
                 }
 
@@ -163,8 +160,9 @@ public class Brain { //8.75 kb
                     int id = resultSet.getInt( "id" );
                     String name = resultSet.getString( "name" );
                     int score = resultSet.getInt( "score" );
+                    String date = resultSet.getString( "date.win" );
 
-                    System.out.println( "id - " + id + ", name '" + name + "', score - " + score );
+                    System.out.println( "id - " + id + ", name '" + name + "', score - " + score + ", date - "+ date );
 
                 }
                 statement.close();

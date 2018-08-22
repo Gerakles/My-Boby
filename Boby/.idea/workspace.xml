@@ -8,7 +8,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$Audio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$Nums.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$Nums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$Restarts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain$Restarts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Boby_war_exploded/WEB-INF/classes/Brain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Brain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Brain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Brain$Audio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Brain$DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Nums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Brain$Nums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain$Restarts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Brain$Restarts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Brain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Brain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,59 +40,21 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1176878848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.105" value="1" />
+          <entry key="project.open.time.134" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.65" value="1" />
@@ -91,19 +63,20 @@
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.75" value="2" />
-          <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.78" value="2" />
           <entry key="project.open.time.81" value="3" />
           <entry key="project.open.time.82" value="2" />
           <entry key="project.open.time.83" value="2" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
-          <entry key="java" value="118" />
+          <entry key="html" value="5" />
+          <entry key="java" value="131" />
           <entry key="jsp" value="9" />
           <entry key="sql" value="1" />
           <entry key="table_name" value="2" />
@@ -115,8 +88,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="3" />
-          <entry key="HTML" value="4" />
-          <entry key="JAVA" value="118" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="131" />
           <entry key="JSP" value="9" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="13" />
@@ -125,19 +98,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="4027" />
+          <entry key="java" value="4156" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
-          <entry key="txt" value="17" />
+          <entry key="txt" value="21" />
           <entry key="xml" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="4027" />
+          <entry key="JAVA" value="4156" />
           <entry key="JSP" value="402" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="21" />
           <entry key="SQL" value="23" />
           <entry key="XML" value="148" />
         </counts>
@@ -149,21 +122,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-              <folding>
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="183" column="67" lean-forward="true" selection-start-line="183" selection-start-column="67" selection-end-line="183" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -188,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/BridgeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/AdapterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/IteratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/InterpreterTest.java" />
@@ -239,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
       </list>
     </option>
   </component>
@@ -285,8 +266,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,7 +299,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaRush" type="462c0819:PsiDirectoryNode" />
+              <item name="procontext" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
@@ -326,8 +307,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaRush" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="procontext" type="462c0819:PsiDirectoryNode" />
+              <item name="ForMonday" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
@@ -351,22 +332,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534321201668" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534700226713" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/Programs/PracticeRoom2-master/PracticeRoom2-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../material/chat/chat-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -409,21 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Binging">
-    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.example.Classes.Animal" />
-      <module name="Boby" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaRush.example.Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Brain$DB">
     <configuration name="Binging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaRush.example.Binging" />
       <module name="Boby" />
@@ -438,27 +405,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.example.Classes.Person" />
+    <configuration name="Brain$DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Brain$DB" />
       <module name="Boby" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaRush.example.Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Phones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.example.phone.Phones" />
+    <configuration name="Brain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Brain" />
+      <module name="Boby" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="procontext.ForMonday.Main" />
       <module name="Boby" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaRush.example.phone.*" />
+          <option name="PATTERN" value="procontext.ForMonday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -472,27 +441,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hibernate.main" />
+      <module name="Boby" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.newUser_EMPTY_NAME" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Boby" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaRush.example.phone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JavaRush.example" />
-      <option name="MAIN_CLASS_NAME" value="JavaRush.example.UserTest" />
-      <option name="METHOD_NAME" value="newUser_EMPTY_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -641,19 +605,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="TestNG.UserTest.newUser_EMPTY_NAME" />
-      <item itemvalue="Application.Phones" />
-      <item itemvalue="Application.Person" />
-      <item itemvalue="Application.Animal" />
       <item itemvalue="Application.Binging" />
+      <item itemvalue="Application.Brain" />
+      <item itemvalue="Application.Brain$DB" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Brain$DB" />
+        <item itemvalue="Application.Brain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Binging" />
-        <item itemvalue="Application.Animal" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Phones" />
-        <item itemvalue="TestNG.UserTest.newUser_EMPTY_NAME" />
       </list>
     </recent_temporary>
   </component>
@@ -691,7 +655,11 @@
       <workItem from="1534231590864" duration="3788000" />
       <workItem from="1534270978894" duration="465000" />
       <workItem from="1534296808238" duration="3433000" />
-      <workItem from="1534315417080" duration="1749000" />
+      <workItem from="1534315417080" duration="2451000" />
+      <workItem from="1534401587707" duration="4879000" />
+      <workItem from="1534698113535" duration="1623000" />
+      <workItem from="1534699892499" duration="357000" />
+      <workItem from="1534744842587" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -736,7 +704,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76500000" />
+    <option name="totallyTimeSpent" value="86127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -751,7 +719,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.24054463" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.25567323" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -782,8 +750,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Ant Build" order="7" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="6" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="right" id="DB Browser" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
       <window_info anchor="right" id="CDI" order="10" weight="0.32980332" />
@@ -830,74 +798,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/views/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -1035,20 +939,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Sex.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1151,10 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,27 +1055,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/models/Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/utils/HibernateSessionFactoryUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hibernate/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="183" column="67" lean-forward="true" selection-start-line="183" selection-start-column="67" selection-end-line="183" selection-end-column="67" />
         </state>
       </provider>
     </entry>
