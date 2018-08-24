@@ -20,9 +20,7 @@ public class Brain { //8.75 kb
         restart = new JButton( "" );
         newGame = new JButton( "" );
         restart.setBorderPainted( false );restart.setFocusPainted( false );restart.setBackground( lavanda );
-        newGame.setBorderPainted( false );
-        newGame.setFocusPainted( false );
-        newGame.setBackground( lavanda );
+        newGame.setBorderPainted( false );newGame.setFocusPainted( false );newGame.setBackground( lavanda );
         restart.setIcon( new ImageIcon( "res\\n.png" ) );
         newGame.setIcon( new ImageIcon( "res\\s.png" ) );
         newGame.addActionListener( e -> {
