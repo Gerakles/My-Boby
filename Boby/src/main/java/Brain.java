@@ -22,12 +22,7 @@ public class Brain { //8.75 kb
         restart.setBorderPainted( false );restart.setFocusPainted( false );restart.setBackground( lavanda );
         newGame.setBorderPainted( false );newGame.setFocusPainted( false );newGame.setBackground( lavanda );
         restart.setIcon( new ImageIcon( "res\\n.png" ) );
-        newGame.setIcon( new ImageIcon( "res\\s.png" ) );
-        newGame.addActionListener( e -> {
-            playerName = JOptionPane.showInputDialog( "Write your NickName" );
-            output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
-            setVisionItems( true );
-        } );
+        newGame.setIcon( new ImageIcon( "res\\s.png" ) );newGame.addActionListener( e -> { playerName = JOptionPane.showInputDialog( "Write your NickName" );output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );setVisionItems( true ); } );
 
         buttonsPanel = new JPanel( new BorderLayout() );
         buttonsPanel.setLayout( new GridLayout( 1, 2 ) );
