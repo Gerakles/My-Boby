@@ -162,7 +162,7 @@ public class Brain { //8.75 kb
                     int score = resultSet.getInt( "score" );
                     String date = resultSet.getString( "date.win" );
 
-                    System.out.println( "id - " + id + ", name '" + name + "', score - " + score + ", date - "+ date );
+                    System.out.println( "id - " + id + ", name '" + name + "', score - " + score + ", date - " + date );
 
                 }
                 statement.close();
