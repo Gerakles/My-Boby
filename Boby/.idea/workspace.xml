@@ -88,7 +88,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="4156" />
+          <entry key="java" value="4159" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="21" />
@@ -98,7 +98,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="4156" />
+          <entry key="JAVA" value="4159" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="SQL" value="23" />
@@ -112,29 +112,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
+            <state relative-caret-position="204">
+              <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -159,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/AdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/IteratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/InterpreterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/FlyweightTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/FactoryTest.java" />
@@ -209,6 +189,8 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java" />
+        <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
       </list>
     </option>
@@ -650,7 +632,7 @@
       <workItem from="1534698113535" duration="1623000" />
       <workItem from="1534699892499" duration="357000" />
       <workItem from="1534744842587" duration="2066000" />
-      <workItem from="1535104873456" duration="398000" />
+      <workItem from="1535104873456" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -695,7 +677,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86525000" />
+    <option name="totallyTimeSpent" value="86768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1119,24 +1101,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
         </state>
       </provider>
     </entry>

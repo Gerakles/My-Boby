@@ -17,12 +17,9 @@ public class Brain { //8.75 kb
     private Brain() throws InterruptedException { Color lavanda = new Color( 187, 158, 207 );
 
         frame = new JFrame( "Relax Game" );frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );frame.setSize( 350, 300 );frame.setVisible( true );frame.setLocationRelativeTo( null );frame.setLayout( new BorderLayout() );
-
         restart = new JButton( "" );
         newGame = new JButton( "" );
-        restart.setBorderPainted( false );
-        restart.setFocusPainted( false );
-        restart.setBackground( lavanda );
+        restart.setBorderPainted( false );restart.setFocusPainted( false );restart.setBackground( lavanda );
         newGame.setBorderPainted( false );
         newGame.setFocusPainted( false );
         newGame.setBackground( lavanda );
