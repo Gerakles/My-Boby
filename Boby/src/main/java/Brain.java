@@ -13,9 +13,7 @@ import java.util.Random;
 
 public class Brain { //8.75 kb
     private static int iter = 1;private static String playerName;private static Audio gameOver, applause;private JTextArea output;private JTextField input;private JButton newGame, restart;private JFrame frame;private JPanel buttonsPanel, mPanel;
-
     private Brain() throws InterruptedException { Color lavanda = new Color( 187, 158, 207 );Font font = new Font( "Arial", Font.PLAIN, 15 );
-
         frame = new JFrame( "Relax Game" );frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );frame.setSize( 350, 300 );frame.setVisible( true );frame.setLocationRelativeTo( null );frame.setLayout( new BorderLayout() );
         restart = new JButton( "" );
         newGame = new JButton( "" );
@@ -23,22 +21,13 @@ public class Brain { //8.75 kb
         newGame.setBorderPainted( false );newGame.setFocusPainted( false );newGame.setBackground( lavanda );
         restart.setIcon( new ImageIcon( "res\\n.png" ) );
         newGame.setIcon( new ImageIcon( "res\\s.png" ) );newGame.addActionListener( e -> { playerName = JOptionPane.showInputDialog( "Write your NickName" );output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );setVisionItems( true ); } );
-
         buttonsPanel = new JPanel( new BorderLayout() );buttonsPanel.setLayout( new GridLayout( 1, 2 ) );buttonsPanel.add( newGame );
         frame.add( buttonsPanel, BorderLayout.NORTH );
-
         input = new JTextField( 20 );input.setBackground( lavanda );input.setForeground( Color.RED );
         frame.add( input, BorderLayout.SOUTH );
-
         mPanel = new JPanel();mPanel.setLayout( new BorderLayout() );
-
-        output = new JTextArea();
-        output.setFont( font );
-        output.setBackground( lavanda );
-        output.setForeground( Color.BLACK );
-
-        mPanel.setBackground( lavanda );
-        mPanel.add( output, BorderLayout.CENTER );
+        output = new JTextArea();output.setFont( font );output.setBackground( lavanda );output.setForeground( Color.BLACK );
+        mPanel.setBackground( lavanda );mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
         String text = "HELLO my friend!" +
                 "\n This my first application. " +
