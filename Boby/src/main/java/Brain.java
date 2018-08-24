@@ -29,11 +29,7 @@ public class Brain { //8.75 kb
         output = new JTextArea();output.setFont( font );output.setBackground( lavanda );output.setForeground( Color.BLACK );
         mPanel.setBackground( lavanda );mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
-        String text = "HELLO my friend!" +
-                "\n This my first application. " +
-                "\n I wrote this application to test my skills" +
-                "\n and find out what I'm capable of!        ";
-
+        String text = "HELLO my friend!" + "\n This my first application. " + "\n I wrote this application to test my skills" + "\n and find out what I'm capable of!        ";
         for (char i : text.toCharArray()) {
             output.append( String.valueOf( i ) );
             Thread.sleep( 100 );

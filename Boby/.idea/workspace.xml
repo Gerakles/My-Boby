@@ -88,7 +88,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="4159" />
+          <entry key="java" value="4163" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="21" />
@@ -98,7 +98,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="4159" />
+          <entry key="JAVA" value="4163" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="SQL" value="23" />
@@ -115,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="115">
+              <caret line="31" column="175" selection-start-line="31" selection-start-column="175" selection-end-line="31" selection-end-column="175" />
             </state>
           </provider>
         </entry>
@@ -632,7 +632,7 @@
       <workItem from="1534698113535" duration="1623000" />
       <workItem from="1534699892499" duration="357000" />
       <workItem from="1534744842587" duration="2066000" />
-      <workItem from="1535104873456" duration="986000" />
+      <workItem from="1535104873456" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -677,7 +677,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87113000" />
+    <option name="totallyTimeSpent" value="87428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1117,8 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="115">
+          <caret line="31" column="175" selection-start-line="31" selection-start-column="175" selection-end-line="31" selection-end-column="175" />
         </state>
       </provider>
     </entry>
