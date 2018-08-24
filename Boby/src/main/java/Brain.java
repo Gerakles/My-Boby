@@ -14,7 +14,7 @@ import java.util.Random;
 public class Brain { //8.75 kb
     private static int iter = 1;private static String playerName;private static Audio gameOver, applause;private JTextArea output;private JTextField input;private JButton newGame, restart;private JFrame frame;private JPanel buttonsPanel, mPanel;
 
-    private Brain() throws InterruptedException { Color lavanda = new Color( 187, 158, 207 );
+    private Brain() throws InterruptedException { Color lavanda = new Color( 187, 158, 207 );Font font = new Font( "Arial", Font.PLAIN, 15 );
 
         frame = new JFrame( "Relax Game" );frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );frame.setSize( 350, 300 );frame.setVisible( true );frame.setLocationRelativeTo( null );frame.setLayout( new BorderLayout() );
         restart = new JButton( "" );
@@ -33,7 +33,6 @@ public class Brain { //8.75 kb
         mPanel = new JPanel();mPanel.setLayout( new BorderLayout() );
 
         output = new JTextArea();
-        Font font = new Font( "Arial", Font.PLAIN, 15 );
         output.setFont( font );
         output.setBackground( lavanda );
         output.setForeground( Color.BLACK );
