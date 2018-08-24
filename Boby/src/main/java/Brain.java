@@ -32,12 +32,7 @@ public class Brain { //8.75 kb
         String text = "HELLO my friend!" + "\n This my first application. " + "\n I wrote this application to test my skills" + "\n and find out what I'm capable of!        ";
         for (char i : text.toCharArray()) { output.append( String.valueOf( i ) );Thread.sleep( 100 ); } }
     public static void main(String[] args) throws InterruptedException { new Brain().start(); }
-
-    private void start() {
-        setVisionItems( false );
-        input.addActionListener( new Nums() );
-        restart.addActionListener( new Restarts() );
-    }
+    private void start() { setVisionItems( false );input.addActionListener( new Nums() );restart.addActionListener( new Restarts() ); }
 
     private void setVisionItems(boolean pass) {
         input.setVisible( pass );
