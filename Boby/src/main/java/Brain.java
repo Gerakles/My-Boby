@@ -24,9 +24,7 @@ public class Brain { //8.75 kb
         restart.setIcon( new ImageIcon( "res\\n.png" ) );
         newGame.setIcon( new ImageIcon( "res\\s.png" ) );newGame.addActionListener( e -> { playerName = JOptionPane.showInputDialog( "Write your NickName" );output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );setVisionItems( true ); } );
 
-        buttonsPanel = new JPanel( new BorderLayout() );
-        buttonsPanel.setLayout( new GridLayout( 1, 2 ) );
-        buttonsPanel.add( newGame );
+        buttonsPanel = new JPanel( new BorderLayout() );buttonsPanel.setLayout( new GridLayout( 1, 2 ) );buttonsPanel.add( newGame );
         frame.add( buttonsPanel, BorderLayout.NORTH );
 
         input = new JTextField( 20 );
