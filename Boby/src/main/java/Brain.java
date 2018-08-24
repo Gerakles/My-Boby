@@ -27,13 +27,10 @@ public class Brain { //8.75 kb
         buttonsPanel = new JPanel( new BorderLayout() );buttonsPanel.setLayout( new GridLayout( 1, 2 ) );buttonsPanel.add( newGame );
         frame.add( buttonsPanel, BorderLayout.NORTH );
 
-        input = new JTextField( 20 );
-        input.setBackground( lavanda );
-        input.setForeground( Color.RED );
+        input = new JTextField( 20 );input.setBackground( lavanda );input.setForeground( Color.RED );
         frame.add( input, BorderLayout.SOUTH );
 
-        mPanel = new JPanel();
-        mPanel.setLayout( new BorderLayout() );
+        mPanel = new JPanel();mPanel.setLayout( new BorderLayout() );
 
         output = new JTextArea();
         Font font = new Font( "Arial", Font.PLAIN, 15 );
