@@ -157,13 +157,7 @@ public class Brain { //8.75 kb
             } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
-            try {
-                clip = AudioSystem.getClip();
-                clip.open( ais );
-                volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );
-
-                clip.setFramePosition( 0 );
-                clip.start();
+            try { clip = AudioSystem.getClip();clip.open( ais );volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );clip.setFramePosition( 0 );clip.start();
             } catch (LineUnavailableException | IOException e) { e.printStackTrace();
             }
         }
