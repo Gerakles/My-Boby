@@ -164,8 +164,7 @@ public class Brain { //8.75 kb
 
                 clip.setFramePosition( 0 );
                 clip.start();
-            } catch (LineUnavailableException | IOException e) {
-                e.printStackTrace();
+            } catch (LineUnavailableException | IOException e) { e.printStackTrace();
             }
         }
 
