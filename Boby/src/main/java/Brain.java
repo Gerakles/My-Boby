@@ -157,12 +157,5 @@ public class Brain { //8.75 kb
             } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
-            try { clip = AudioSystem.getClip();clip.open( ais );volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );clip.setFramePosition( 0 );clip.start();
-            } catch (LineUnavailableException | IOException e) { e.printStackTrace();
-            }
-        }
-
-        void setVolumes() { if (wt < 0) wt = 0;if (wt > 1) wt = 1;float min = volumes.getMinimum();float max = volumes.getMaximum();volumes.setValue( (max - min) * (float) wt + min );
-        }
-    }
-}
+            try { clip = AudioSystem.getClip();clip.open( ais );volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );clip.setFramePosition( 0 );clip.start(); } catch (LineUnavailableException | IOException e) { e.printStackTrace(); } }
+        void setVolumes() { if (wt < 0) wt = 0;if (wt > 1) wt = 1;float min = volumes.getMinimum();float max = volumes.getMaximum();volumes.setValue( (max - min) * (float) wt + min ); }}}
