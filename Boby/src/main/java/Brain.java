@@ -36,8 +36,7 @@ public class Brain { //8.75 kb
     private void setVisionItems(boolean pass) { input.setVisible( pass );output.setVisible( pass );if (pass) { buttonsPanel.add( restart, BorderLayout.EAST ); } }
 
     static class DB { private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";private static final String USERNAME = "root";private static final String PASSWORD = "root";private static final String INSERT_NEW = "INSERT INTO brain VALUES(?,?,?,?)";private static final String GET_ALL = "SELECT * FROM brain";private static final String MAX = "SELECT * FROM brain ORDER BY ID DESC LIMIT 1";PreparedStatement preparedStatement = null;
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             DB app = new DB();
             app.sellectAll();
             //app.max();
@@ -170,12 +169,7 @@ public class Brain { //8.75 kb
             }
         }
 
-        void setVolumes() {
-            if (wt < 0) wt = 0;
-            if (wt > 1) wt = 1;
-            float min = volumes.getMinimum();
-            float max = volumes.getMaximum();
-            volumes.setValue( (max - min) * (float) wt + min );
+        void setVolumes() { if (wt < 0) wt = 0;if (wt > 1) wt = 1;float min = volumes.getMinimum();float max = volumes.getMaximum();volumes.setValue( (max - min) * (float) wt + min );
         }
     }
 }
