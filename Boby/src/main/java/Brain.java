@@ -33,15 +33,7 @@ public class Brain { //8.75 kb
         for (char i : text.toCharArray()) { output.append( String.valueOf( i ) );Thread.sleep( 100 ); } }
     public static void main(String[] args) throws InterruptedException { new Brain().start(); }
     private void start() { setVisionItems( false );input.addActionListener( new Nums() );restart.addActionListener( new Restarts() ); }
-
-    private void setVisionItems(boolean pass) {
-        input.setVisible( pass );
-        output.setVisible( pass );
-
-        if (pass) {
-            buttonsPanel.add( restart, BorderLayout.EAST );
-        }
-    }
+    private void setVisionItems(boolean pass) { input.setVisible( pass );output.setVisible( pass );if (pass) { buttonsPanel.add( restart, BorderLayout.EAST ); } }
 
     static class DB {
         private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";
