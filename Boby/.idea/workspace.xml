@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,7 +89,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="4412" />
+          <entry key="java" value="4482" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="21" />
@@ -99,7 +99,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="4412" />
+          <entry key="JAVA" value="4482" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="SQL" value="23" />
@@ -143,8 +143,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/CompositeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/CommandTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/ChainofResponsibilityTest.java" />
@@ -220,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/lambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java" />
       </list>
     </option>
   </component>
@@ -353,7 +356,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535489232518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535489355855" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -400,7 +403,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.FourDots">
     <configuration name="Brain$DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Brain$DB" />
       <module name="Boby" />
@@ -417,8 +420,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.example.lambda.Main" />
+    <configuration name="FourDots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.example.lambda.FourDots" />
       <module name="Boby" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -431,13 +434,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="procontext.ForMonday.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.example.lambda.Main" />
       <module name="Boby" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="procontext.ForMonday.*" />
+          <option name="PATTERN" value="JavaRush.example.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -617,17 +620,17 @@
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Application.Brain" />
       <item itemvalue="Application.Brain$DB" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.lambda" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.FourDots" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FourDots" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.lambda" />
         <item itemvalue="Application.Brain$DB" />
         <item itemvalue="Application.Brain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -674,7 +677,7 @@
       <workItem from="1535401946849" duration="2418000" />
       <workItem from="1535443908328" duration="1194000" />
       <workItem from="1535454764760" duration="1694000" />
-      <workItem from="1535488766820" duration="292000" />
+      <workItem from="1535488766820" duration="549000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -719,7 +722,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93751000" />
+    <option name="totallyTimeSpent" value="94008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1159,8 +1162,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
