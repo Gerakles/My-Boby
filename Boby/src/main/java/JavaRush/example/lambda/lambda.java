@@ -1,4 +1,4 @@
-package JavaRush.example;
+package JavaRush.example.lambda;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
