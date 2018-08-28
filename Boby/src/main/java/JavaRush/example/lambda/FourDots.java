@@ -6,5 +6,10 @@ import java.util.List;
 public class FourDots {
     public static void main(String[] args) {
         List<String> strings = new LinkedList <>(  );
+        strings.add( "To be" );
+        strings.add( " or " );
+        strings.add( "not to be" );
+
+        
     }
 }
