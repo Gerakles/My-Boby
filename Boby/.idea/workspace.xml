@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +66,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="5" />
-          <entry key="java" value="132" />
+          <entry key="java" value="133" />
           <entry key="jsp" value="9" />
           <entry key="sql" value="1" />
           <entry key="table_name" value="2" />
@@ -79,7 +79,7 @@
         <counts>
           <entry key="Database Element" value="3" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="132" />
+          <entry key="JAVA" value="133" />
           <entry key="JSP" value="9" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="13" />
@@ -88,7 +88,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="4233" />
+          <entry key="java" value="4315" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="21" />
@@ -98,7 +98,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="4233" />
+          <entry key="JAVA" value="4315" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="SQL" value="23" />
@@ -121,11 +121,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/lambda.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/FacadeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/DecoratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/CompositeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/CommandTest.java" />
@@ -201,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lamda.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/lambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java" />
       </list>
     </option>
   </component>
@@ -324,7 +337,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535456057206" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535456283093" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -371,7 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lambda">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Brain$DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Brain$DB" />
       <module name="Boby" />
@@ -384,6 +397,20 @@
       <option name="MAIN_CLASS_NAME" value="Brain" />
       <module name="Boby" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.example.lambda.Main" />
+      <module name="Boby" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaRush.example.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -415,20 +442,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaRush.example.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hibernate.main" />
-      <module name="Boby" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hibernate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -588,17 +601,17 @@
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Application.Brain" />
       <item itemvalue="Application.Brain$DB" />
-      <item itemvalue="Application.main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.lambda" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.lambda" />
         <item itemvalue="Application.Brain$DB" />
         <item itemvalue="Application.Brain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -644,7 +657,7 @@
       <workItem from="1535104873456" duration="2026000" />
       <workItem from="1535401946849" duration="2418000" />
       <workItem from="1535443908328" duration="1194000" />
-      <workItem from="1535454764760" duration="962000" />
+      <workItem from="1535454764760" duration="1209000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -689,7 +702,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92727000" />
+    <option name="totallyTimeSpent" value="92974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,13 +796,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/lessons/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1131,6 +1137,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
