@@ -10,9 +10,6 @@ public class FourDots {
         strings.add( " or " );
         strings.add( "not to be" );
 
-//        strings.forEach( System.out::print );
-        strings.forEach( Main::staticMethod );
-    }
-    private void staticMethod(String s) {
+        strings.forEach( System.out::print );
     }
 }
