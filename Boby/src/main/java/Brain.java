@@ -12,31 +12,91 @@ import java.util.Random;
 //Magic does not touch.
 
 public class Brain { //8.75 kb
-    private static int iter = 1;private static String playerName;private static Audio gameOver, applause;private JTextArea output;private JTextField input;private JButton newGame, restart;private JFrame frame;private JPanel buttonsPanel, mPanel;
-    private Brain() throws InterruptedException { Color lavanda = new Color( 187, 158, 207 );Font font = new Font( "Arial", Font.PLAIN, 15 );
-        frame = new JFrame( "Relax Game" );frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );frame.setSize( 350, 300 );frame.setVisible( true );frame.setLocationRelativeTo( null );frame.setLayout( new BorderLayout() );
+    private static int iter = 1;
+    private static String playerName;
+    private static Audio gameOver, applause;
+    private JTextArea output;
+    private JTextField input;
+    private JButton newGame, restart;
+    private JFrame frame;
+    private JPanel buttonsPanel, mPanel;
+
+    private Brain() throws InterruptedException {
+        Color lavanda = new Color( 187, 158, 207 );
+        Font font = new Font( "Arial", Font.PLAIN, 15 );
+        frame = new JFrame( "Relax Game" );
+        frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
+        frame.setSize( 350, 300 );
+        frame.setVisible( true );
+        frame.setLocationRelativeTo( null );
+        frame.setLayout( new BorderLayout() );
         restart = new JButton( "" );
         newGame = new JButton( "" );
-        restart.setBorderPainted( false );restart.setFocusPainted( false );restart.setBackground( lavanda );
-        newGame.setBorderPainted( false );newGame.setFocusPainted( false );newGame.setBackground( lavanda );
+        restart.setBorderPainted( false );
+        restart.setFocusPainted( false );
+        restart.setBackground( lavanda );
+        newGame.setBorderPainted( false );
+        newGame.setFocusPainted( false );
+        newGame.setBackground( lavanda );
         restart.setIcon( new ImageIcon( "res\\n.png" ) );
-        newGame.setIcon( new ImageIcon( "res\\s.png" ) );newGame.addActionListener( e -> { playerName = JOptionPane.showInputDialog( "Write your NickName" );output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );setVisionItems( true ); } );
-        buttonsPanel = new JPanel( new BorderLayout() );buttonsPanel.setLayout( new GridLayout( 1, 2 ) );buttonsPanel.add( newGame );
+        newGame.setIcon( new ImageIcon( "res\\s.png" ) );
+        newGame.addActionListener( e -> {
+            playerName = JOptionPane.showInputDialog( "Write your NickName" );
+            output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
+            setVisionItems( true );
+        } );
+        buttonsPanel = new JPanel( new BorderLayout() );
+        buttonsPanel.setLayout( new GridLayout( 1, 2 ) );
+        buttonsPanel.add( newGame );
         frame.add( buttonsPanel, BorderLayout.NORTH );
-        input = new JTextField( 20 );input.setBackground( lavanda );input.setForeground( Color.RED );
+        input = new JTextField( 20 );
+        input.setBackground( lavanda );
+        input.setForeground( Color.RED );
         frame.add( input, BorderLayout.SOUTH );
-        mPanel = new JPanel();mPanel.setLayout( new BorderLayout() );
-        output = new JTextArea();output.setFont( font );output.setBackground( lavanda );output.setForeground( Color.BLACK );
-        mPanel.setBackground( lavanda );mPanel.add( output, BorderLayout.CENTER );
+        mPanel = new JPanel();
+        mPanel.setLayout( new BorderLayout() );
+        output = new JTextArea();
+        output.setFont( font );
+        output.setBackground( lavanda );
+        output.setForeground( Color.BLACK );
+        mPanel.setBackground( lavanda );
+        mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
         String text = "HELLO my friend!" + "\n This my first application. " + "\n I wrote this application to test my skills" + "\n and find out what I'm capable of!        ";
-        for (char i : text.toCharArray()) { output.append( String.valueOf( i ) );Thread.sleep( 100 ); } }
-    public static void main(String[] args) throws InterruptedException { new Brain().start(); }
-    private void start() { setVisionItems( false );input.addActionListener( new Nums() );restart.addActionListener( new Restarts() ); }
-    private void setVisionItems(boolean pass) { input.setVisible( pass );output.setVisible( pass );if (pass) { buttonsPanel.add( restart, BorderLayout.EAST ); } }
+        for (char i : text.toCharArray()) {
+            output.append( String.valueOf( i ) );
+            Thread.sleep( 100 );
+        }
+    }
 
-    static class DB { private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";private static final String USERNAME = "root";private static final String PASSWORD = "root";private static final String INSERT_NEW = "INSERT INTO brain VALUES(?,?,?,?)";private static final String GET_ALL = "SELECT * FROM brain";private static final String MAX = "SELECT * FROM brain ORDER BY ID DESC LIMIT 1";PreparedStatement preparedStatement = null;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        new Brain().start();
+    }
+
+    private void start() {
+        setVisionItems( false );
+        input.addActionListener( new Nums() );
+        restart.addActionListener( new Restarts() );
+    }
+
+    private void setVisionItems(boolean pass) {
+        input.setVisible( pass );
+        output.setVisible( pass );
+        if (pass) {
+            buttonsPanel.add( restart, BorderLayout.EAST );
+        }
+    }
+
+    static class DB {
+        private static final String HOST = "jdbc:mysql://localhost:3306/mydbtest?useSSL=false&serverTimezone=UTC";
+        private static final String USERNAME = "root";
+        private static final String PASSWORD = "root";
+        private static final String INSERT_NEW = "INSERT INTO brain VALUES(?,?,?,?)";
+        private static final String GET_ALL = "SELECT * FROM brain";
+        private static final String MAX = "SELECT * FROM brain ORDER BY ID DESC LIMIT 1";
+        PreparedStatement preparedStatement = null;
+
+        public static void main(String[] args) {
             DB app = new DB();
             app.sellectAll();
             //app.max();
@@ -157,5 +217,23 @@ public class Brain { //8.75 kb
             } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
-            try { clip = AudioSystem.getClip();clip.open( ais );volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );clip.setFramePosition( 0 );clip.start(); } catch (LineUnavailableException | IOException e) { e.printStackTrace(); } }
-        void setVolumes() { if (wt < 0) wt = 0;if (wt > 1) wt = 1;float min = volumes.getMinimum();float max = volumes.getMaximum();volumes.setValue( (max - min) * (float) wt + min ); }}}
+            try {
+                clip = AudioSystem.getClip();
+                clip.open( ais );
+                volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );
+                clip.setFramePosition( 0 );
+                clip.start();
+            } catch (LineUnavailableException | IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        void setVolumes() {
+            if (wt < 0) wt = 0;
+            if (wt > 1) wt = 1;
+            float min = volumes.getMinimum();
+            float max = volumes.getMaximum();
+            volumes.setValue( (max - min) * (float) wt + min );
+        }
+    }
+}
