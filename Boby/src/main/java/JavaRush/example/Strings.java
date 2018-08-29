@@ -5,5 +5,8 @@ public class Strings {
         int x = 5;
         String text = "X = "+ x;
         System.out.println(text);
+        String test = "1000";
+        int i = Integer.parseInt( test.trim() );
+        System.out.println( i );
     }
 }
