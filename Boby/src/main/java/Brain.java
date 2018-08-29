@@ -31,6 +31,7 @@ public class Brain { //8.75 kb
         frame.setVisible( true );
         frame.setLocationRelativeTo( null );
         frame.setLayout( new BorderLayout() );
+        
         restart = new JButton( "" );
         newGame = new JButton( "" );
         restart.setBorderPainted( false );

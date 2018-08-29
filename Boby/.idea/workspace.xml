@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Brain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Brain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,7 +69,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="5" />
-          <entry key="java" value="137" />
+          <entry key="java" value="144" />
           <entry key="jsp" value="9" />
           <entry key="sql" value="1" />
           <entry key="table_name" value="2" />
@@ -83,7 +82,7 @@
         <counts>
           <entry key="Database Element" value="3" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="137" />
+          <entry key="JAVA" value="144" />
           <entry key="JSP" value="9" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="13" />
@@ -92,7 +91,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="193" />
-          <entry key="java" value="4623" />
+          <entry key="java" value="4625" />
           <entry key="jsp" value="402" />
           <entry key="sql" value="23" />
           <entry key="txt" value="21" />
@@ -102,7 +101,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="193" />
-          <entry key="JAVA" value="4623" />
+          <entry key="JAVA" value="4625" />
           <entry key="JSP" value="402" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="SQL" value="23" />
@@ -116,29 +115,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BrainTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Strings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="408">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -202,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Building.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Classes/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.kt" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lamda.java" />
@@ -210,10 +190,11 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/lambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BrainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Strings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BrainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
       </list>
     </option>
   </component>
@@ -311,6 +292,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaRush" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="Binging.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Boby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="procontext" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,7 +345,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535575680024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535575735397" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -684,7 +675,7 @@
       <workItem from="1535454764760" duration="1694000" />
       <workItem from="1535488766820" duration="2622000" />
       <workItem from="1535549398662" duration="1618000" />
-      <workItem from="1535574005203" duration="596000" />
+      <workItem from="1535574005203" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="Yakin 442">
       <created>1531158583646</created>
@@ -729,7 +720,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98295000" />
+    <option name="totallyTimeSpent" value="99115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +735,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.28366113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.28366113" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -777,9 +768,9 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Ant Build" order="6" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="DB Browser" order="8" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
-      <window_info anchor="right" id="CDI" order="10" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="CDI" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="DB Browser" order="10" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -907,35 +898,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/BubleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Matematical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Matrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Sex.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JavaRush/example/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -1104,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/procontext/ForMonday/Brain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1122,13 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1153,17 +1102,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BrainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="51">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BrainTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1323">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1171,6 +1130,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Matrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Matematical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/BubleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
     </entry>
