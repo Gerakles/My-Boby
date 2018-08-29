@@ -24,6 +24,7 @@ public class Brain { //8.75 kb
     private Brain() throws InterruptedException {
         Color lavanda = new Color( 187, 158, 207 );
         Font font = new Font( "Arial", Font.PLAIN, 15 );
+        
         frame = new JFrame( "Relax Game" );
         frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         frame.setSize( 350, 300 );
