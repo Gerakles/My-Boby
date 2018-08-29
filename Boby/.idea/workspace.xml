@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java" afterDir="false" />
-    </list>
+    <list default="true" id="b5f4939a-6831-4220-8daf-eb2ab610fd4d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/First/target/" />
@@ -116,8 +114,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Brain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2516">
-              <caret line="157" column="3" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
+            <state relative-caret-position="153">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BrainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -140,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/JavaRush/CompositeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/CommandTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/ChainofResponsibilityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/BuilderTest.java" />
@@ -217,12 +223,13 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/Binging.java" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.kt" />
         <option value="$PROJECT_DIR$/src/main/java/procontext/ForMonday/TMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lamda.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/lambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaRush/example/lambda/FourDots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Brain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BrainTest.java" />
       </list>
     </option>
   </component>
@@ -735,8 +742,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.27458397" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.27912253" />
       <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.30635402" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
