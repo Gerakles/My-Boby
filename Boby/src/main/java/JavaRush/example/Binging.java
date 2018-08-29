@@ -5,7 +5,6 @@ public class Binging {
         Insurance current = new CarInsurance();
 
         int premium = current.premium();
-
         String category = current.category();
 
         System.out.println( "premium : " + premium );
