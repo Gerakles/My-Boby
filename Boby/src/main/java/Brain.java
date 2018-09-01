@@ -10,7 +10,6 @@ import java.time.LocalTime;
 import java.util.Random;
 
 //Magic does not touch.
-
 public class Brain { //8.75 kb
     private static int iter = 1;
     private static String playerName;
