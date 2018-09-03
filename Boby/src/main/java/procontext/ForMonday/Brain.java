@@ -13,7 +13,7 @@ class Brain { // 1.66 kb
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     static void realize(String message) {
-        
+
         String query = "https://vk.com/im?peers=140620469&sel=-157826406";
         TStatus ts = new TStatus();
         TMessage tm = new TMessage();
