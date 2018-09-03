@@ -18,6 +18,7 @@ class Brain { // 1.66 kb
         TMessage tm = new TMessage();
         HttpURLConnection connection = null;
         Messages mess = new Messages( "ABC", "12345", message );
+
         try {
             connection = (HttpURLConnection) new URL( query ).openConnection();
             connection.setDoOutput( true );
