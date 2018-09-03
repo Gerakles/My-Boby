@@ -38,7 +38,6 @@ class Brain { // 1.66 kb
         } catch (Throwable cause) {
             cause.printStackTrace();
         } finally {
-            if (connection != null) connection.disconnect();
-        }
+            if (connection != null) connection.disconnect();        }
     }
 }
